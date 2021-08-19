@@ -15,7 +15,7 @@
                             <div class="profile-view">
                                 <div class="profile-img-wrap">
                                     <div class="profile-img">
-                                        <a href="#"><img class="avatar" src=" {{asset ('assets/img/doctor-03.jpg ')}}" alt=""></a>
+                                        <a href="#"><img class="avatar" src="@if($patient->file == NULL)assets/img/user.jpg @else {{ asset('storage/uploads/patiens/'.$patient->file) }}@endif" alt=""></a>
                                     </div>
                                 </div>
                                 <div class="profile-basic">
