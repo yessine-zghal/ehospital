@@ -20,12 +20,15 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-Route::post('logout', [UserController::class, 'logout'])->name('logout');
+Route::get('/logout', [UserController::class, 'logout'])->name('logout');
 Route::get('users/index', [UserController::class, 'index'])->name('users.index');
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/doctors', [App\Http\Controllers\DoctorsController::class, 'index'])->name('doctors');
+Route::get('/doctors', [App\Http\Controllers\DoctorController::class, 'index'])->name('doctors');
+Route::get('/add-doctor', [App\Http\Controllers\DoctorController::class, 'addDoctor'])->name('add-doctor');
+Route::put('/add-doctor', [App\Http\Controllers\DoctorController::class, 'store'])->name('store-doctor');
+
 Route::get('/patients', [App\Http\Controllers\PatientsController::class, 'index']);
 Route::get('/home', [App\Http\Controllers\FileUpload::class, 'showfile'  ])->name('home');
 Route::get('/patients/{id}', [App\Http\Controllers\PatientsController::class, 'show'  ]);

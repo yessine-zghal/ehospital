@@ -53,7 +53,7 @@
 					<div class="dropdown-menu">
 						<a class="dropdown-item" href="/profile">My Profile</a>
 					
-						<a class="dropdown-item" href="/users/index">Logout</a>
+						<a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
 					</div>
 				</li>
 			</ul>
@@ -61,7 +61,7 @@
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
 				<div class="dropdown-menu dropdown-menu-right">
 					<a class="dropdown-item" href="profile.html">My Profile</a>
-					<a class="dropdown-item" href="/users/index">Logout</a>
+					<a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
 				</div>
 			</div>
 		</div>
