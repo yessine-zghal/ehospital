@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 
 use Illuminate\Http\Request;
+use App\Models\Blog;
+use App\Models\User;
 
 class BlogController extends Controller
 {
@@ -24,6 +26,47 @@ class BlogController extends Controller
      */
     public function index()
     {  
-        return view('blog');
+    
+        return view('blogs.blog');
+    }
+    public function addBlog(){
+
+        return view('blogs.add-blog');
+    }
+
+    public function store(Request $request) {
+
+
+
+        $blog = new Blog();
+    
+        $blog->blogname = $request->blogname;
+        $blog->blogcategory = $request->blogcategory;
+        $blog->blogdescription = $request->blogdescription;
+        $blog->tags = $request->tags;
+        
+
+        if($request->hasFile('image')) {
+
+            $destination = 'storage/uploads/blogs/'.$blog->image;
+            $file = $request->file('image');
+            $extension = $file->getClientOriginalExtension();
+            $filename = time().'.'.$extension;
+            $file->move('storage/uploads/blogs/', $filename);
+            $blog->image = $filename;
+
+        }
+        
+        $blog->save();
+
+
+        $user = new User();
+        $user->name = $request->username;
+        $user->email = $request->email;
+        $user->password = bcrypt($request->password);
+
+        $user->save();
+    
+        return redirect('/blog')->with('mssg', 'New blog is regestrated !');
     }
 }
