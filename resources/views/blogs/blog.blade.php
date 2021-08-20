@@ -8,7 +8,7 @@
                         <h4 class="page-title">Blog</h4>
                     </div>
                     <div class="col-sm-4 col-8 text-right m-b-30">
-                        <a class="btn btn-primary btn-rounded float-right" href="add-blog.html"><i class="fa fa-plus"></i> Add Blog</a>
+                        <a class="btn btn-primary btn-rounded float-right" href="/add-blog"><i class="fa fa-plus"></i> Add Blog</a>
                     </div>
                 </div>
                 <div class="row">
