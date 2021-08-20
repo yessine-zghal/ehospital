@@ -34,6 +34,7 @@ class DoctorController extends Controller
 
         return view('add-doctor');
     }
+    //modif
 
     public function store(Request $request) {
 

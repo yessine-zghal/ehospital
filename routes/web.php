@@ -33,6 +33,10 @@ Route::get('/patients', [App\Http\Controllers\PatientsController::class, 'index'
 Route::get('/home', [App\Http\Controllers\FileUpload::class, 'showfile'  ])->name('home');
 Route::get('/patients/{id}', [App\Http\Controllers\PatientsController::class, 'show'  ]);
 Route::get('/appointments', [App\Http\Controllers\AppointmentsController::class, 'index'])->name('appointments');
+Route::get('/add-appointment', [App\Http\Controllers\AppointmentsController::class, 'show'])->name('add-appointments');
+
+Route::post('/add-appointment', [App\Http\Controllers\AppointmentsController::class, 'store'])->name('add-appointment');
+
 Route::get('/schedule', [App\Http\Controllers\ScheduleController::class, 'index'])->name('schedule');
 Route::get('/departments', [App\Http\Controllers\DepartmentsController::class, 'index'])->name('departments');
 Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index'])->name('blog');

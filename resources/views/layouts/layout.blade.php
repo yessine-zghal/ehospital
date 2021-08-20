@@ -15,6 +15,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/dataTables.bootstrap4.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/plugins/light-gallery/css/lightgallery.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/fullcalendar.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('assets/css/bootstrap-datetimepicker.min.css')}}">
+
     <style>
         .container {
             max-width: 500px;
@@ -154,6 +156,7 @@
     <script src="assets/js/jquery.fullcalendar.js"></script>
     <script src="assets/js/fullcalendar.min.js"></script>
     <script src="assets/js/jquery-ui.min.html"></script>
+	
 
 
     
