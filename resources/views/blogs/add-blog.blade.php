@@ -39,55 +39,23 @@
                                 
                             </div>
                             <div class="form-group">
-                                <label>Blog Images</label>
-                                <div>
-                                    <input class="form-control" type="file">
-                                    <small class="form-text text-muted">Max. file size: 50 MB. Allowed images: jpg, gif, png. Maximum 10 images only.</small>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-3 col-sm-3 col-4 col-lg-3 col-xl-2">
-                                        <div class="product-thumbnail">
-                                            <img src="assets/img/blog/blog-thumb-01.jpg" class="img-thumbnail img-fluid" alt="">
-                                            <span class="product-remove" title="remove"><i class="fa fa-close"></i></span>
+                               <label>Blog Images</label>
+                               <div class="profile-upload">
+                                            <div class="upload-img">
+                                                <img alt="" src="assets/img/blog/blog-01.jpg">
+                                            </div>
+                                            <div class="upload-input">
+                                                <input type="file" class="form-control"  name="image">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-3 col-4 col-lg-3 col-xl-2">
-                                        <div class="product-thumbnail">
-                                            <img src="assets/img/placeholder-thumb.jpg" class="img-thumbnail img-fluid" alt="">
-                                            <span class="product-remove" title="remove"><i class="fa fa-close"></i></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-3 col-4 col-lg-3 col-xl-2">
-                                        <div class="product-thumbnail">
-                                            <img src="assets/img/placeholder-thumb.jpg" class="img-thumbnail img-fluid" alt="">
-                                            <span class="product-remove" title="remove"><i class="fa fa-close"></i></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-3 col-4 col-lg-3 col-xl-2">
-                                        <div class="product-thumbnail">
-                                            <img src="assets/img/placeholder-thumb.jpg" class="img-thumbnail img-fluid" alt="">
-                                            <span class="product-remove" title="remove"><i class="fa fa-close"></i></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-3 col-4 col-lg-3 col-xl-2">
-                                        <div class="product-thumbnail">
-                                            <img src="assets/img/placeholder-thumb.jpg" class="img-thumbnail img-fluid" alt="">
-                                            <span class="product-remove" title="remove"><i class="fa fa-close"></i></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-3 col-4 col-lg-3 col-xl-2">
-                                        <div class="product-thumbnail">
-                                            <img src="assets/img/placeholder-thumb.jpg" class="img-thumbnail img-fluid" alt="">
-                                            <span class="product-remove" title="remove"><i class="fa fa-close"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
+                                
+
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label>Blog Category<span class="text-danger">*</span></label>
-                                        <select class="select" name="blogcategory">
+                                        <label>Blog Category</label>
+                                        <select class="select"  tabindex="-1" aria-hidden="true" name="blogcategory">
                                             <option>Health Care</option>
                                             <option>Child</option>
                                             <option>AHealth Care</option>

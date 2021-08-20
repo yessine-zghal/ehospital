@@ -26,8 +26,9 @@ class BlogController extends Controller
      */
     public function index()
     {  
-    
-        return view('blogs.blog');
+        $blogs = Blog::all();
+
+        return view('blogs.blog',compact('blogs'));
     }
     public function addBlog(){
 
@@ -60,12 +61,7 @@ class BlogController extends Controller
         $blog->save();
 
 
-        $user = new User();
-        $user->name = $request->username;
-        $user->email = $request->email;
-        $user->password = bcrypt($request->password);
 
-        $user->save();
     
         return redirect('/blog')->with('mssg', 'New blog is regestrated !');
     }

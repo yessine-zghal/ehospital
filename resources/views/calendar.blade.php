@@ -1,8 +1,8 @@
 @extends('layouts.layout')
 
 @section('content')
-
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
         <div class="page-wrapper">
             <div class="content">
                 <div class="row">
