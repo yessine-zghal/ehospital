@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 use App\Models\Appointment;
+use App\Models\Patient;
 
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Redirect;
 
 class AppointmentsController extends Controller
 {
@@ -25,7 +27,10 @@ class AppointmentsController extends Controller
      */
     public function index()
     {  
-        return view('appointments');
+
+        $appointments = Appointment::get();
+        $patients = Patient::get();
+        return view('appointments',compact('appointments','patients'));
     }
 
 
@@ -48,7 +53,12 @@ class AppointmentsController extends Controller
         $appointment->Patient_Email= $request->Patient_Email;
         $appointment->Patient_Phone_Number = $request->Patient_Phone_Number;
         $appointment->Message= $request->Message;
-        $appointment->Appointment_Status= $request->Appointment_Status;        ;
+        $appointment->Appointment_Status= $request->Appointment_Status;     
+        
+        $appointment->save();
+        
+            return Redirect('/appointments')->with('mssg', 'New Appointments is regestrated !');
+        
     
     }
 

@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/dataTables.bootstrap4.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/plugins/light-gallery/css/lightgallery.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/fullcalendar.min.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{asset('assets/css/bootstrap-datetimepicker.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('assets/css/bootstrap-datetimepicker.min.css')  }}">
 
     <style>
         .container {
@@ -31,6 +31,15 @@
 </head>
 
 <body>
+
+	<!-- Preloader -->
+    <div class="preloader flex-column justify-content-center align-items-center">
+        <img class="animation__shake img-circle" src="{{asset ('assets/img/logo.png')}}" alt="Logo" height="60" width="60">
+    </div>
+
+
+
+
 	<div class="main-wrapper">
 		<div class="header">
 			<div class="header-left">

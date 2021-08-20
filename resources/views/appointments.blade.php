@@ -30,15 +30,22 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    @foreach ($appointments as $index => $appointment)
                                     <tr>
-                                        <td>APT0001</td>
-                                        <td><img width="28" height="28" src="assets/img/user.jpg" class="rounded-circle m-r-5" alt=""> Denise Stevens</td>
+                                        <td>{{ $index+1 }}</td>
+                                        <td><img width="28" height="28" src="assets/img/user.jpg" class="rounded-circle m-r-5" alt=""> {{ $appointment->Patient_Name }}</td>
                                         <td>35</td>
-                                        <td>Henry Daniels</td>
-                                        <td>Cardiology</td>
-                                        <td>30 Dec 2018</td>
-                                        <td>10:00am - 11:00am</td>
-                                        <td><span class="custom-badge status-red">Inactive</span></td>
+                                        <td>{{ $appointment->Doctor }}</td>
+                                        <td>{{ $appointment->Department }}</td>
+                                        <td>{{ $appointment->Date }}</td>
+                                        <td>{{ $appointment->Time }}</td>
+                                        <td>
+                                            @if($appointment->Appointment_Status == 'option2')
+                                            <span class="custom-badge status-red">Inactive</span>
+                                            @else
+                                            <span class="custom-badge status-green">Active</span>
+                                            @endif
+                                        </td>
                                         <td class="text-right">
                                             <div class="dropdown dropdown-action">
                                                 <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
@@ -49,25 +56,7 @@
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td>APT0002</td>
-                                        <td><img width="28" height="28" src="assets/img/user.jpg" class="rounded-circle m-r-5" alt=""> Denise Stevens</td>
-                                        <td>35</td>
-                                        <td>Henry Daniels</td>
-                                        <td>Cardiology</td>
-                                        <td>30 Dec 2018</td>
-                                        <td>10:00am - 11:00am</td>
-                                        <td><span class="custom-badge status-green">Active</span></td>
-                                        <td class="text-right">
-                                            <div class="dropdown dropdown-action">
-                                                <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
-                                                <div class="dropdown-menu dropdown-menu-right">
-                                                    <a class="dropdown-item" href="edit-appointment.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#delete_appointment"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
+                                    @endforeach
                                 </tbody>
                             </table>
                         </div>

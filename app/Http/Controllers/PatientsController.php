@@ -35,6 +35,7 @@ class PatientsController extends Controller
         // use the $id variable to query the db for a record
         $patient = Patient::findOrFail($id);
         //$files = File::findOrFail($id);
+
         return view('patients.fichepatient', ['patient' => $patient]);
         //,['file' => $files]
       
