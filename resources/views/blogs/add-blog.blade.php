@@ -10,10 +10,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/select2.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/tagsinput.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!--[if lt IE 9]>
-		<script src="assets/js/html5shiv.min.js"></script>
-		<script src="assets/js/respond.min.js"></script>
-	<![endif]-->
+    
 
 
 
@@ -39,7 +36,7 @@
                                 
                             </div>
                             <div class="form-group">
-                               <label>Blog Images</label>
+                               <label>Blog Images <span class="text-danger">*</span></label>
                                <div class="profile-upload">
                                             <div class="upload-img">
                                                 <img alt="" src="assets/img/blog/blog-01.jpg">
@@ -51,35 +48,30 @@
                                 
 
                             </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label>Blog Category</label>
-                                        <select class="select"  tabindex="-1" aria-hidden="true" name="blogcategory">
-                                            <option>Health Care</option>
-                                            <option>Child</option>
-                                            <option>AHealth Care</option>
-                                        </select>
-                                    </div>
-                                </div>
+                            
                                 
-                            </div>
+                                    <div class="form-group">
+                                        <label>Blog Category<span class="text-danger">*</span></label>
+                                        <input class="form-control" type="text" name="blogcategory">
+                                    
+                                
+                                  </div>
                             <div class="form-group">
-                                <label>Blog Description</label>
+                                <label>Blog Description<span class="text-danger">*</span></label>
                                 <textarea cols="30" rows="6" class="form-control" name="blogdescription"></textarea>
     
                             </div>
                             <div class="form-group">
-                                <label>Tags <small>(separated with a comma)</small></label>
+                                <label>Tags <span class="text-danger">*</span> <small>(separated with a comma)</small></label>
                                 <input type="text" placeholder="Enter your tags" data-role="tagsinput" class="form-control" name="tags">
                             </div>
                             <div class="form-group">
-                                <label>author name</label>
+                                <label>author name<span class="text-danger">*</span></label>
                                 <input class="form-control" type="text" name="authorname">
     
                             </div>
                             <div class="form-group">
-                                <label>about author </label>
+                                <label>about author <span class="text-danger">*</span></label>
                                 <input class="form-control" type="text" name="aboutname">
     
                             </div>
