@@ -113,7 +113,6 @@
 							<a href="#"><i class="fa fa-commenting-o"></i> <span> Blog</span> <span class="menu-arrow"></span></a>
 							<ul style="display: none;">
 								<li><a href="/blog">Blog</a></li>
-								<li><a href="/blog-details">Blog View</a></li>
 								<li><a href="/add-blog">Add Blog</a></li>
 							
 							</ul>
@@ -149,23 +148,22 @@
     
     <div class="sidebar-overlay" data-reff=""></div>
 	<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-	<script src="assets/js/jquery-3.2.1.min.js "></script>
+	<script src="{{asset('assets/js/jquery-3.2.1.min.js') }}"></script>
 	<script src="assets/js/popper.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/jquery.slimscroll.js"></script>
 	<script src="assets/js/Chart.bundle.js"></script>
-	<script src="assets/js/chart.js"></script>
-	<script src="assets/js/app.js"></script>
-    <script src="assets/js/select2.min.js"></script>
-    <script src="assets/js/moment.min.js"></script>
-    <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
-    <script src="assets/plugins/light-gallery/js/lightgallery-all.min.js"></script>
-    <script src="assets/js/jquery.dataTables.min.js"></script>
-    <script src="assets/js/dataTables.bootstrap4.min.js"></script>
-    <script src="assets/js/jquery.fullcalendar.js"></script>
-    <script src="assets/js/fullcalendar.min.js"></script>
-    <script src="assets/js/jquery-ui.min.html"></script>
-	
+	<script src="{{ asset('assets/js/chart.js')}}"></script>
+	<script src="{{ asset('assets/js/app.js')}}"></script>
+    <script src="{{ asset('assets/js/select2.min.js')}}"></script>
+    <script src="{{ asset('assets/js/moment.min.js')}}"></script>
+    <script src="{{ asset('assets/js/bootstrap-datetimepicker.min.js')}}"></script>
+    <script src="{{ asset('assets/plugins/light-gallery/js/lightgallery-all.min.js')}}"></script>
+    <script src="{{ asset('assets/js/jquery.dataTables.min.js')}}"></script>
+    <script src="{{ asset('assets/js/dataTables.bootstrap4.min.js')}}"></script>
+    <script src="{{ asset('assets/js/jquery.fullcalendar.js')}}"></script>
+    <script src="{{ asset('assets/js/fullcalendar.min.js')}}"></script>
+    <script src="{{ asset('assets/js/jquery-ui.min.html')}}"></script>
 
 
     

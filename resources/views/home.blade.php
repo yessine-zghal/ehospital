@@ -316,7 +316,7 @@
 				</div>
 			</div>
 			
-			{{$files[0]->name}}<img src= "{{asset ('public/download.jpg')}}"alt="image" title=" medical record "/></a>
+			
 		</div>
 	</div>
 @endsection

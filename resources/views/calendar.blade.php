@@ -1,6 +1,8 @@
 @extends('layouts.layout')
 
 @section('content')
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
         <div class="page-wrapper">
             <div class="content">
                 <div class="row">
@@ -276,4 +278,15 @@
             </div>
         </div>
     </div>
+    <div class="sidebar-overlay" data-reff=""></div>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+
+<script src="assets/js/bootstrap.min.js"></script>
+
+<script src="assets/js/moment.min.js"></script>
+
+<script src="assets/js/fullcalendar.min.js"></script>
+<script src="assets/js/jquery.fullcalendar.js"></script>
+
+
    @endsection

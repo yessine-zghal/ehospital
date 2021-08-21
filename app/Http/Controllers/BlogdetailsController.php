@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 
 use Illuminate\Http\Request;
-
+use App\Models\Blog;
 class BlogdetailsController extends Controller
 {
     /**
@@ -24,6 +24,12 @@ class BlogdetailsController extends Controller
      */
     public function index()
     {  
-        return view('blog-details');
+        return view('blogs.blog-details');
     }
+    public function show($id) {
+        // use the $id variable to query the db for a record
+        $blog = Blog::findOrFail($id);
+        return view('blogs.blog-details', ['blog' => $blog]);
+    }
+    
 }
