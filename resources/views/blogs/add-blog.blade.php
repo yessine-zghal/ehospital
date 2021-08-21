@@ -73,7 +73,16 @@
                                 <label>Tags <small>(separated with a comma)</small></label>
                                 <input type="text" placeholder="Enter your tags" data-role="tagsinput" class="form-control" name="tags">
                             </div>
-                            
+                            <div class="form-group">
+                                <label>author name</label>
+                                <input class="form-control" type="text" name="authorname">
+    
+                            </div>
+                            <div class="form-group">
+                                <label>about author </label>
+                                <input class="form-control" type="text" name="aboutname">
+    
+                            </div>
                             <div class="m-t-20 text-center">
                                 <button class="btn btn-primary submit-btn">Publish Blog</button>
                             </div>

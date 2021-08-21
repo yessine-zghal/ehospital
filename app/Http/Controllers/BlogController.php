@@ -45,6 +45,8 @@ class BlogController extends Controller
         $blog->blogcategory = $request->blogcategory;
         $blog->blogdescription = $request->blogdescription;
         $blog->tags = $request->tags;
+        $blog->authorname = $request->authorname;
+        $blog->aboutname = $request->aboutname;
         
 
         if($request->hasFile('image')) {
@@ -65,4 +67,5 @@ class BlogController extends Controller
     
         return redirect('/blog')->with('mssg', 'New blog is regestrated !');
     }
+
 }

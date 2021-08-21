@@ -17,6 +17,8 @@ class CreateBlogsTable extends Migration
             $table->id();
             $table->timestamps();
             $table->string('blogname');
+            $table->string('authorname');
+            $table->string('aboutname');
             $table->string('blogcategory');
             $table->string('blogdescription', 2048);
             $table->string('tags');

@@ -1,6 +1,15 @@
 @extends('layouts.layout')
 
 @section('content')
+<style>
+#container {
+		  width: 100%;
+		  height: 45px;
+		  
+		 
+		  overflow: hidden;
+		}
+</style>
 <div class="page-wrapper">
     <div class="content">
         <div class="row">
@@ -18,16 +27,16 @@
             <div class="col-sm-6 col-md-6 col-lg-4">
 
 
-                <div class="blog grid-blog">
+             <div class="blog grid-blog">
 
                     <div width="5%">{{ $index+1 }} </div>
                     <div class="blog-image">
-                        <a href="/blog-details"><img width='400'  height="400"  class="img-fluid" src="@if($blog->image == NULL)assets/img/blog/blog-01.jpg @else {{ asset('public/storage/uploads/blogs/'.$blog->image) }}@endif" alt=""></a>
+                        <a href="/blog/{{ $blog->id }}"><img width='400'  height="400"  class="img-fluid" src="@if($blog->image == NULL)assets/img/blog/blog-01.jpg @else {{ asset('public/storage/uploads/blogs/'.$blog->image) }}@endif" alt=""></a>
                     </div>
                     <div class="blog-content">
                         <h3 class="blog-title"><a href="/blog-details">{{ $blog->blogname}}</a></h3>
-                        <p>{{ $blog->blogdescription}}</p>
-                        <a href="/blog-details" class="read-more"><i class="fa fa-long-arrow-right"></i> Read More</a>
+                        <div id="container">{{ $blog->blogdescription}}...</div>
+                        <a href="/blog/{{ $blog->id }}" class="read-more"><i class="fa fa-long-arrow-right"></i> Read More</a>
                         <div class="blog-info clearfix">
                             <div class="post-left">
                                 <ul>

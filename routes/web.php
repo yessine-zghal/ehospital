@@ -38,6 +38,7 @@ Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index'])->name
 Route::get('/add-blog', [App\Http\Controllers\BlogController::class, 'addblog'])->name('add-blog');
 Route::put('/add-blog', [App\Http\Controllers\BlogController::class, 'store'])->name('store-blog');
 Route::get('/blog-details', [App\Http\Controllers\BlogdetailsController::class, 'index'])->name('blog-details');
+Route::get('/blog/{id}', [App\Http\Controllers\BlogdetailsController::class, 'show'  ]);
 Route::get('/calendar', [App\Http\Controllers\CalendarController::class, 'index'])->name('calendar');
 Route::get('/gallery', [App\Http\Controllers\GalleryController::class, 'index'])->name('Gallery');
 Route::get('/add-patient', [App\Http\Controllers\AddpatientController::class, 'index'])->name('add-patient');
