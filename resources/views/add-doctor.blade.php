@@ -111,8 +111,8 @@
                                     </div>
                                     <div class="col-sm-6 col-md-6 col-lg-3">
                                         <div class="form-group">
-                                            <label>Postal Code</label>
-                                            <input type="text" class="form-control" name="postalcode">
+                                            <label>Speciality</label>
+                                            <input type="text" class="form-control" name="speciality">
                                         </div>
                                     </div>
                                 </div>

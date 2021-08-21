@@ -28,7 +28,7 @@ class CreateDoctorsTable extends Migration
             $table->string('country');
             $table->string('city');
             $table->string('state');
-            $table->string('postalcode');
+            $table->string('speciality');
             $table->unsignedBigInteger('phone');
             $table->string('image', 2048);
             $table->string('biography', 2048);

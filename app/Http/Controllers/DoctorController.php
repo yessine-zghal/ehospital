@@ -53,7 +53,7 @@ class DoctorController extends Controller
         $doctor->country = $request->country;
         $doctor->city = $request->city;
         $doctor->state = $request->state;
-        $doctor->postalcode = $request->postalcode;
+        $doctor->speciality= $request->speciality;
         $doctor->phone = $request->phone;
         $doctor->biography = $request->biography;
         $doctor->status = $request->status;

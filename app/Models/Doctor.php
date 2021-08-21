@@ -21,7 +21,7 @@ class Doctor extends Model
         'country',
         'city',
         'state',
-        'postalcode',
+        'speciality',
         'phone',
         'image',
         'biography',
