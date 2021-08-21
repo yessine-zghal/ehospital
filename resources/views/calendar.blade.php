@@ -9,6 +9,9 @@
                     <div class="col-sm-8 col-4">
                         <h4 class="page-title">Calendar</h4>
                     </div>
+                    <!--
+...un petit croquis vaut mieux qu'un long discours...
+-->
                     <div class="col-sm-4 col-8 text-right m-b-30">
                         <a href="#" class="btn btn-primary btn-rounded" data-toggle="modal" data-target="#add_event"><i class="fa fa-plus"></i> Add Event</a>
                     </div>
