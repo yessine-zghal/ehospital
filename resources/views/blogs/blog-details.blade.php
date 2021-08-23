@@ -23,7 +23,7 @@
                                     <div class="post-right"><a href="#."><i class="fa fa-comment-o"></i>1 Comment</a></div>
                                 </div>
                                 <div class="blog-image">
-                                    <a href="#."><img alt="" src="@if($blog->image == NULL)assets/img/blog/blog-01.jpg @else {{ asset('public/storage/uploads/blogs/'.$blog->image) }}@endif" class="img-fluid"></a>
+                                    <a href="#."><img alt="" src="@if($blog->image == NULL)assets/img/blog/blog-01.jpg @else {{ asset('storage/uploads/blogs/'.$blog->image) }}@endif" class="img-fluid"></a>
                                 </div>
                                 <div class="blog-content">
                                    

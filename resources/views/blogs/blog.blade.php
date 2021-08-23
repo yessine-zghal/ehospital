@@ -29,9 +29,9 @@
 
              <div class="blog grid-blog">
 
-                    <div width="5%">{{ $index+1 }} </div>
+                  
                     <div class="blog-image">
-                        <a href="/blog/{{ $blog->id }}"><img width='400'  height="400"  class="img-fluid" src="@if($blog->image == NULL)assets/img/blog/blog-01.jpg @else {{ asset('public/storage/uploads/blogs/'.$blog->image) }}@endif" alt=""></a>
+                        <a href="/blog/{{ $blog->id }}"><img  class="img-fluid" src="@if($blog->image == NULL)assets/img/blog/blog-01.jpg @else {{ asset('storage/uploads/blogs/'.$blog->image) }}@endif" alt=""></a>
                     </div>
                     <div class="blog-content">
                         <h3 class="blog-title"><a href="/blog-details">{{ $blog->blogname}}</a></h3>
@@ -48,9 +48,10 @@
                     </div>
 
                 </div>
+              
             </div>
-            
             @endforeach
+          
         </div>
         
         
