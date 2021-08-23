@@ -99,14 +99,8 @@
 						<li>
 							<a href="/departments"><i class="fa fa-hospital-o"></i> <span>Departments</span></a>
 						</li>
-						<li class="submenu">
-							<a href="#"><i class="fa fa-user"></i> <span> Employees </span> <span class="menu-arrow"></span></a>
-							<ul style="display: none;">
-								<li><a href="employees.html">Employees List</a></li>
-								<li><a href="leaves.html">Leaves</a></li>
-								<li><a href="holidays.html">Holidays</a></li>
-								<li><a href="attendance.html">Attendance</a></li>
-							</ul>
+						<li>
+							<a href="{{ route('employees') }}"><i class="fa fa-user"></i> <span> Employees </span></a>
 						</li>
 						
 						<li class="submenu">

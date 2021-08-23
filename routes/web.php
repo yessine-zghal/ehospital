@@ -25,9 +25,7 @@ Route::get('users/index', [UserController::class, 'index'])->name('users.index')
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/doctors', [App\Http\Controllers\DoctorController::class, 'index'])->name('doctors');
-Route::get('/add-doctor', [App\Http\Controllers\DoctorController::class, 'addDoctor'])->name('add-doctor');
-Route::put('/add-doctor', [App\Http\Controllers\DoctorController::class, 'store'])->name('store-doctor');
+
 Route::get('/patients', [App\Http\Controllers\PatientsController::class, 'index']);
 Route::get('/home', [App\Http\Controllers\FileUpload::class, 'showfile'  ])->name('home');
 Route::get('/patients/{id}', [App\Http\Controllers\PatientsController::class, 'show'  ]);
@@ -50,3 +48,19 @@ Route::put('/add-patient', [App\Http\Controllers\AddpatientController::class, 's
 Route::delete('/patients/{id}', [App\Http\Controllers\PatientsController::class, 'destroy']);
 Route::post('/add-patient', [App\Http\Controllers\FileUpload::class, 'fileUpload'])->name('fileUpload');
 
+
+// Employees
+Route::get('/employees', [App\Http\Controllers\EmployeeController::class, 'index'])->name('employees');
+Route::get('/add-employee', [App\Http\Controllers\EmployeeController::class, 'addEmployee'])->name('add-employee');
+Route::post('/add-employee', [App\Http\Controllers\EmployeeController::class, 'store'])->name('store-employee');
+Route::get('/update-employee/{id}', [App\Http\Controllers\EmployeeController::class, 'updateEmployee'])->name('update-employee');
+Route::post('/update-employee/{id}', [App\Http\Controllers\EmployeeController::class, 'storeUpdate'])->name('store-employee-update');
+Route::delete('/employee/{email}', [App\Http\Controllers\EmployeeController::class, 'DeleteEmployee'])->name('delete-employee');
+
+// Doctors
+Route::get('/doctors', [App\Http\Controllers\DoctorController::class, 'index'])->name('doctors');
+Route::get('/add-doctor', [App\Http\Controllers\DoctorController::class, 'addDoctor'])->name('add-doctor');
+Route::put('/add-doctor', [App\Http\Controllers\DoctorController::class, 'store'])->name('store-doctor');
+Route::get('/update-doctor/{id}', [App\Http\Controllers\DoctorController::class, 'updateDoctor'])->name('update-doctor');
+Route::put('/update-doctor/{id}', [App\Http\Controllers\DoctorController::class, 'storeUpdate'])->name('store-doctor-update');
+Route::delete('/doctor/{email}', [App\Http\Controllers\DoctorController::class, 'DeleteDoctor'])->name('delete-doctor');
