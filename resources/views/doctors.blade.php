@@ -18,7 +18,7 @@
                     <div class="col-md-4 col-sm-4  col-lg-3">
                         <div class="profile-widget">
                             <div class="doctor-img">
-                                <a class="avatar" href="profile.html"><img alt="" src="@if($doctor->image == NULL)assets/img/user.jpg @else {{ asset('storage/uploads/doctors/'.$doctor->image) }}@endif"></a>
+                                <a class="avatar" ><img alt="" src="@if($doctor->image == NULL)assets/img/user.jpg @else {{ asset('storage/uploads/doctors/'.$doctor->image) }}@endif"></a>
                             </div>
                             <div class="dropdown profile-action">
                                 <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>

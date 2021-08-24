@@ -38,6 +38,10 @@ Route::post('/add-appointment', [App\Http\Controllers\AppointmentsController::cl
 
 Route::get('/schedule', [App\Http\Controllers\ScheduleController::class, 'index'])->name('schedule');
 Route::get('/departments', [App\Http\Controllers\DepartmentsController::class, 'index'])->name('departments');
+Route::get('/dentalcare', [App\Http\Controllers\DepartmentsController::class, 'dentalcare']);
+Route::get('/covid', [App\Http\Controllers\DepartmentsController::class, 'covid']);
+Route::get('/eyecare', [App\Http\Controllers\DepartmentsController::class, 'eyecare']);
+Route::get('/notyet', [App\Http\Controllers\DepartmentsController::class, 'notyet']);
 Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index'])->name('blog');
 Route::get('/add-blog', [App\Http\Controllers\BlogController::class, 'addblog'])->name('add-blog');
 Route::put('/add-blog', [App\Http\Controllers\BlogController::class, 'store'])->name('store-blog');

@@ -62,7 +62,7 @@
 						<span> {{Auth::user()->name}}</span>
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="/profile">My Profile</a>
+						
 					
 						<a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
 					</div>
@@ -71,7 +71,7 @@
 			<div class="dropdown mobile-user-menu float-right">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
 				<div class="dropdown-menu dropdown-menu-right">
-					<a class="dropdown-item" href="profile.html">My Profile</a>
+					
 					<a class="dropdown-item" href="{{ route('logout') }}">Logout</a>
 				</div>
 			</div>
@@ -81,22 +81,22 @@
 				<div id="sidebar-menu" class="sidebar-menu">
 					<ul>
 						<li class="menu-title">Main</li>
-						<li class="active">
+						<li @if(str_contains(url()->current(), '/home')) class="active" @endif>
 							<a href="/home"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a>
 						</li>
-						<li>
+						<li @if(str_contains(url()->current(), '/doctors')) class="active" @endif>
 							<a href="/doctors"><i class="fa fa-user-md"></i> <span>Doctors</span></a>
 						</li>
-						<li>
+						<li @if(str_contains(url()->current(), '/patients')) class="active" @endif>
 							<a href="/patients"><i class="fa fa-wheelchair"></i> <span>Patients</span></a>
 						</li>
-						<li>
+						<li @if(str_contains(url()->current(), '/appointments')) class="active" @endif>
 							<a href="/appointments"><i class="fa fa-calendar"></i> <span>Appointments</span></a>
 						</li>
-						<li>
+						<li @if(str_contains(url()->current(), '/schedule')) class="active" @endif>
 							<a href="/schedule"><i class="fa fa-calendar-check-o"></i> <span>Doctor Schedule</span></a>
 						</li>
-						<li>
+						<li @if(str_contains(url()->current(), '/departments')) class="active" @endif>
 							<a href="/departments"><i class="fa fa-hospital-o"></i> <span>Departments</span></a>
 						</li>
 						<li class="submenu">
@@ -118,18 +118,18 @@
 							</ul>
 						</li>
 						
-						
-						<li class="menu-title">UI Elements</li>
-						
-						<li>
+						<li @if(str_contains(url()->current(), '/calendar')) class="active" @endif>
 							<a href="/calendar"><i class="fa fa-calendar"></i> <span>Calendar</span></a>
 						</li>
-						<li class="menu-title">Extras</li>
+						
+						
+						
+						<li class="menu-title" >Gallery</li>
 						<li class="submenu">
-							<a href="#"><i class="fa fa-columns"></i> <span>Pages</span> <span class="menu-arrow"></span></a>
+							<a href="#"><i class="fa fa-columns"></i> <span>Map</span> <span class="menu-arrow"></span></a>
 							<ul style="display: none;">
 								
-								<li><a href="/gallery"> Gallery </a></li>
+								<li @if(str_contains(url()->current(), '/gallery')) class="active" @endif><a href="/gallery"> Hospital Map </a></li>
 								
 							</ul>
 						</li>
@@ -138,7 +138,7 @@
 				</div>
 			</div>
 		</div>
-    <>
+   
 
       @yield('content')
 
