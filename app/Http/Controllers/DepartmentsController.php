@@ -42,4 +42,9 @@ class DepartmentsController extends Controller
     {  
         return view('departments.notyet');
     }
+    public function gynecologue(){
+        return view('departments.gynecologue');
+
+    }
+
 }

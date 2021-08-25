@@ -67,8 +67,8 @@
                                     </tr>
                                     <tr>
                                         <td>4</td>
-                                        <td> <a class="dropdown-item" href="/notyet">Orthopedics </a></td>
-                                        <td><span class="custom-badge status-red">Inactive</span></td>
+                                        <td> <a class="dropdown-item" href="/gynecologue">gynecologue </a></td>
+                                        <td><span class="custom-badge status-green">Active</span></td>
                                         <td class="text-right">
                                             <div class="dropdown dropdown-action">
                                                 <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
@@ -81,7 +81,7 @@
                                     </tr>
                                     <tr>
                                         <td>5</td>
-                                        <td><a class="dropdown-item" href="/notyet">Cancer Department</a></td>
+                                        <td><a class="dropdown-item" href="/notyet">esthetic Department</a></td>
                                         <td><span class="custom-badge status-green">Active</span></td>
                                         <td class="text-right">
                                             <div class="dropdown dropdown-action">
@@ -94,8 +94,8 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>6</td>
-                                        <td><a class="dropdown-item" href="/notyet">ENT Department</a></td>
+                                        <td>5</td>
+                                        <td><a class="dropdown-item" href="/notyet">esthetic Department</a></td>
                                         <td><span class="custom-badge status-green">Active</span></td>
                                         <td class="text-right">
                                             <div class="dropdown dropdown-action">

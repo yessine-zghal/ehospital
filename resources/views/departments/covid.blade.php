@@ -1,176 +1,1204 @@
-<!DOCTYPE html>
-<html style="font-size: 16px;">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="Branding, Analysis, Planning, Design">
-    <meta name="description" content="">
-    <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>E-Hospital</title>
-    <link rel="stylesheet" href="css/welcome.css" media="screen">
-<link rel="stylesheet" href="css/covid.css" media="screen">
-    <script class="u-script" type="text/javascript" src="js/jquery-1.9.1.min.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="js/covid.js" defer=""></script>
-    <meta name="generator" content="Nicepage 3.23.9, nicepage.com">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Ubuntu:300,300i,400,400i,500,500i,700,700i|Roboto+Condensed:300,300i,400,400i,700,700i">
-    
-    
-    
-    
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": ""
-}</script>
-    <meta name="theme-color" content="#036d4c">
-    <meta property="og:title" content="Page 3">
-    <meta property="og:type" content="website">
-  </head>
-  <body class="u-body u-overlap u-overlap-contrast u-overlap-transparent"><header class="u-clearfix u-header" id="sec-5942" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-align-left u-clearfix u-sheet u-sheet-1"></div></header>
-    <section csslass="u-clearfix u-custom-color-1 u-section-1" id="carousel_a3fd">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h3 class="u-text u-text-default u-text-1">E-Hospital</h3>
-        <div class="u-clearfix u-gutter-0 u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout" style="">
-            <div class="u-layout-row" style="">
-              <div class="u-align-left u-container-style u-image u-layout-cell u-right-cell u-size-32-md u-size-32-sm u-size-32-xs u-size-35-lg u-size-35-xl u-size-xs-60 u-image-1" src="" data-image-width="1280" data-image-height="853">
-                <div class="u-container-layout u-container-layout-1" src=""></div>
-              </div>
-              <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-25-lg u-size-25-xl u-size-28-md u-size-28-sm u-size-28-xs u-size-xs-60 u-layout-cell-2" src="">
-                <div class="u-container-layout u-container-layout-2">
-                  <h1 class="u-custom-font u-font-oswald u-text u-text-2">COVID-19</h1>
-                  <h2 class="u-text u-text-3"> Information</h2>
-                  <p class="u-text u-text-4">Coronavirus disease spreads primarily through contact with an infected person when they cough or sneeze. It also spreads when a person touches a surface or object that has the virus on it, then touches their eyes.</p>
-                </div>
-              </div>
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>E-Hospital</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="assets/img/logo-dark.png">
+
+  <!-- bootstrap CSS -->
+  <link rel="stylesheet" href="assetsc/css/bootstrap.min.css" type="text/css" media="all" />
+  <!-- carousel CSS -->
+  <link rel="stylesheet" href="assetsc/css/owl.carousel.min.css" type="text/css" media="all" />
+  <!-- responsive CSS -->
+  <link rel="stylesheet" href="assetsc/css/responsive.css" type="text/css" media="all" />
+  <!-- font-awesome CSS -->
+  <link rel="stylesheet" href="assetsc/css/font-awesome.min.css" type="text/css" media="all" />
+  <!-- theme-default CSS -->
+  <link rel="stylesheet" href="assetsc/css/theme-default.css" type="text/css" media="all" />
+  <!-- Meanmenu CSS -->
+  <link rel="stylesheet" href="assetsc/css/meanmenu.min.css" type="text/css" media="all" />
+  <!-- Main Style CSS -->
+  <link rel="stylesheet" href="assetsc/css/style.css" type="text/css" media="all" />
+  <!-- transitions CSS -->
+  <link rel="stylesheet" href="assetsc/css/owl.transitions.css" type="text/css" media="all" />
+  <!-- venobox CSS -->
+  <link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="all" />
+  <!-- animated CSS -->
+  <link rel="stylesheet" href="assetsc/css/animated-text.css" type="text/css" media="all" />
+  <!-- widget CSS -->
+  <link rel="stylesheet" href="assetsc/css/widget.css" type="text/css" media="all" />
+  <!-- modernizr js -->
+  <script type="text/javascript" src="assetsc/js/vendor/modernizr-3.5.0.min.js"></script>
+  <script src="../../../code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="../../../cdn.jsdelivr.net/npm/popper.js%401.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="../../../stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+
+  <!-- ============================================================== -->
+  <!-- Start - corona Main Menu Area -->
+  <!-- ============================================================== -->
+  <div id="sticky-header" class="corona_main_menu d-md-none d-lg-block d-sm-none d-none">
+    <div class="corona_nav_manu">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="logo">
+              <a class="logo_img" href="/home" title="corona">
+                <img src="assetsc/images/1.png" alt="" />
+              </a>
+              <a class="logo_tranalte" href="/home" title="corona">
+                <img src="assetsc/images/1.png" alt="" />
+              </a>
             </div>
           </div>
-        </div>
-        <div class="u-image u-image-circle u-preserve-proportions u-image-2" alt="" data-image-width="240" data-image-height="240"></div>
-      </div>
-    </section>
-    <section class="u-align-center u-clearfix u-color-scheme-custom-color-scheme-1 u-color-style-multicolor-1 u-grey-15 u-section-2" id="sec-553b">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-expanded-width u-list u-list-1">
-          <div class="u-repeater u-repeater-1">
-            <div class="u-align-center u-border-2 u-border-white u-container-style u-custom-item u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-1"><span class="u-custom-item u-icon u-icon-circle u-palette-1-base u-spacing-10 u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 511.634 511.634" style=""><use xlink:href="#svg-ec7b"></use></svg><svg class="u-svg-content" viewBox="0 0 511.634 511.634" id="svg-ec7b"><g><g clip-rule="evenodd" fill-rule="evenodd"><path d="m85.817 99.788v-40h-1.8-38.2c-11 0-20 8.999-20 20v362c0 11.001 9.002 20 20 20h259.991c-8.734-11.628-14.992-25.222-17.99-40h-222v-322z" fill="#5cd0b3"></path><path d="m345.817 99.788v210.322c12.249-5.352 25.778-8.321 40-8.321v-222.002c0-10.998-9-20-20-20l-40 .001v39.999h20z" fill="#5cd0b3"></path><path d="m65.817 99.788h280v322h-280z" fill="#e3eaef"></path><path d="m345.817 310.11c-35.318 15.431-60 50.673-60 91.679 0 6.849.689 13.537 2 19.999 3 14.778 9.258 28.372 17.992 40 18.244 24.29 47.291 40.001 80.008 40.001 55.228 0 100-44.772 100-100s-44.772-100-100-100c-14.222 0-27.751 2.969-40 8.321zm-8.516 106.944c-7.809-7.809-7.809-20.472 0-28.281 7.81-7.81 20.472-7.81 28.281 0l8.026 8.026 32.443-32.443c7.809-7.81 20.472-7.81 28.281 0 7.809 7.809 7.809 20.472 0 28.281l-46.583 46.583c-7.809 7.809-20.472 7.809-28.281 0z" fill="#fff"></path><path d="m365.582 388.773c-7.81-7.81-20.472-7.81-28.281 0-7.809 7.809-7.809 20.472 0 28.281l22.167 22.167c7.809 7.809 20.472 7.809 28.281 0l46.583-46.583c7.809-7.809 7.809-20.472 0-28.281-7.81-7.81-20.472-7.81-28.281 0l-32.443 32.443z" fill="#cbe558"></path><circle cx="205.817" cy="244.783" fill="#cbe558" r="50"></circle><path d="m95.817 109.788h220c5.5 0 10-4.5 10-10v-40c0-5.5-4.5-10-10-10h-69.999c0-22.092-17.909-40.001-40.001-40.001s-40.001 17.909-40.001 40.001h-69.999c-5.5 0-10 4.5-10 10v39.999c0 5.501 4.5 10.001 10 10.001z" fill="#6d91ac"></path>
-</g><g><path d="m205.821 59.788c13.268-.528 13.258-19.477 0-20h-.007c-13.268.53-13.251 19.479.007 20z"></path><path d="m163.396 174.077-.005-.005c-7.81-7.81-20.471-7.808-28.282.002-14.357 14.637-.302 38.583 19.323 33.466l2.496 2.496c-5.152 7.228-8.743 15.643-10.277 24.746h-8.504c-3.458-5.978-9.921-10-17.324-10h-.007c-11.045 0-19.996 8.954-19.996 20 .203 20.545 27.12 27.461 37.328 10h8.504c1.534 9.104 5.125 17.518 10.277 24.747l-2.496 2.496c-6.998-1.87-14.77.139-19.978 5.868l-.005.005c-7.43 8.173-6.825 20.819 1.348 28.25 8.151 7.414 20.807 6.842 28.255-1.348 4.75-5.225 6.217-12.28 4.522-18.631l2.497-2.497c7.228 5.152 15.643 8.743 24.746 10.277v8.503c-5.978 3.458-10 9.921-10 17.324v.007c0 11.045 8.954 19.996 20 19.996 20.545-.203 27.461-27.12 10-37.328v-8.503c9.104-1.534 17.519-5.125 24.747-10.277l2.497 2.497c-1.696 6.351-.229 13.406 4.522 18.631l.005.005c7.448 8.191 20.1 8.756 28.25 1.342 8.173-7.43 8.772-20.082 1.343-28.255-5.209-5.729-12.981-7.738-19.979-5.868l-2.495-2.495c5.152-7.229 8.744-15.643 10.277-24.747h8.503c3.458 5.978 9.921 10 17.324 10h.008c11.046 0 19.996-8.954 19.996-20-.203-20.545-27.12-27.461-37.328-10h-8.503c-1.534-9.104-5.125-17.518-10.277-24.747l2.496-2.496c6.818 1.794 14.096.015 19.322-5.179l.005-.005c7.81-7.811 7.808-20.471-.003-28.282-7.81-7.811-20.477-7.807-28.287.002-5.235 5.235-6.961 12.649-5.179 19.321l-2.496 2.496c-7.229-5.153-15.643-8.744-24.747-10.277v-8.503c5.978-3.458 10-9.921 10-17.324v-.007c0-11.045-8.954-19.996-20-19.996-20.545.203-27.461 27.12-10 37.328v8.503c-9.104 1.534-17.518 5.125-24.747 10.277l-2.496-2.496c1.78-6.671.054-14.085-5.18-19.319zm42.422 30.706c22.056 0 40 17.944 40 40-2.197 53.066-77.811 53.05-80 0 0-22.056 17.944-40 40-40z"></path><path d="m441.403 357.285c-11.164-11.638-31.258-11.637-42.424 0l-25.371 25.372-.955-.956c-11.697-11.695-30.729-11.695-42.424 0-11.695 11.696-11.695 30.727 0 42.423l22.167 22.167c11.697 11.695 30.727 11.695 42.424 0l46.583-46.583c11.638-11.164 11.638-31.257 0-42.423zm-14.142 28.281-46.583 46.583c-3.897 3.897-10.241 3.898-14.139 0l-22.167-22.167c-3.897-3.898-3.897-10.241 0-14.139 3.898-3.898 10.241-3.898 14.139 0l8.026 8.026c3.725 3.873 10.418 3.873 14.143 0l32.442-32.442c3.72-3.878 10.419-3.878 14.139 0 3.879 3.722 3.879 10.418 0 14.139z"></path><path d="m395.816 292.24v-212.453c0-16.542-13.458-30-30-30h-32.684c-3.463-5.973-9.928-10-17.315-10h-61.003c-11.778-53.07-86.238-53.032-97.994 0h-61.003c-7.387 0-13.852 4.026-17.315 10h-32.685c-16.542 0-30 13.458-30 30v362c0 16.542 13.458 30 30 30h255.206c64.93 78.676 194.336 33.259 194.793-70 0-57.282-44.014-104.479-100-109.547zm-20-212.453v212.453c-6.866.622-13.552 1.877-19.999 3.707v-196.16c0-5.523-4.478-10-10-10h-10v-20h29.999c5.514.001 10 4.487 10 10zm-214.995 20.001h-65.004v-40h69.999c5.523 0 10-4.477 10-10 1.649-39.804 58.363-39.786 60.003 0 0 5.523 4.477 10 10 10h69.999v40h-64.996c-13.268.528-13.258 19.477 0 20h64.996c7.388 0 13.853-4.027 17.316-10h2.684v194.035c-26.915 13.793-47.438 38.355-55.842 67.963h-159.16c-13.268.528-13.258 19.477 0 20h155.451c-.6 6.571-.601 13.43 0 20.001h-200.449v-302h2.683c3.463 5.974 9.928 10 17.316 10h65.004c13.268-.527 13.258-19.476 0-19.999zm-115.004 351.999c-5.514 0-10-4.486-10-10v-362c0-5.514 4.486-10 10-10h30v20h-9.999c-5.523 0-10 4.477-10 10v322c0 5.523 4.477 10 10 10h214.156c1.979 6.971 4.629 13.663 7.876 20zm339.999 40.002c-49.626 0-90-40.374-90-90 4.944-119.397 175.074-119.362 180 .001 0 49.625-40.374 89.999-90 89.999z"></path><path d="m205.825 99.788h-.007c-5.523 0-9.996 4.477-9.996 10 .528 13.263 19.479 13.263 20.003 0 0-5.523-4.477-10-10-10z"></path>
-</g>
-</g></svg></span>
-                <h1 class="u-align-center u-text u-text-default u-title u-text-1" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">+500</h1>
-                <p class="u-align-center u-text u-text-2">Positive</p>
-              </div>
-            </div>
-            <div class="u-border-2 u-border-white u-container-style u-custom-item u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-2"><span class="u-custom-item u-icon u-icon-circle u-palette-1-base u-spacing-10 u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 24 24" style=""><use xlink:href="#svg-77c5"></use></svg><svg class="u-svg-content" viewBox="0 0 24 24" id="svg-77c5"><path d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2.22 10.72c.293.293.293.768 0 1.061-.146.146-.338.219-.53.219s-.384-.073-.53-.22l-1.22-1.22-1.22 1.22c-.146.147-.338.22-.53.22s-.384-.073-.53-.22c-.293-.293-.293-.768 0-1.061l1.22-1.22-1.22-1.219c-.293-.293-.293-.768 0-1.061s.768-.293 1.061 0l1.22 1.22 1.22-1.22c.293-.293.768-.293 1.061 0s.293.768 0 1.061l-1.221 1.22zm9 0c.293.293.293.768 0 1.061-.146.146-.338.219-.53.219s-.384-.073-.53-.22l-1.22-1.22-1.22 1.22c-.146.147-.338.22-.53.22s-.384-.073-.53-.22c-.293-.293-.293-.768 0-1.061l1.22-1.22-1.22-1.22c-.293-.293-.293-.768 0-1.061s.768-.293 1.061 0l1.22 1.22 1.22-1.22c.293-.293.768-.293 1.061 0s.293.768 0 1.061l-1.22 1.22z"></path></svg></span>
-                <h1 class="u-align-center u-text u-text-default u-title u-text-3" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">800</h1>
-                <p class="u-align-center u-text u-text-4">DEATHS</p>
-              </div>
-            </div>
-            <div class="u-align-center u-border-2 u-border-white u-container-style u-custom-item u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-custom-item u-icon u-icon-circle u-palette-1-base u-spacing-10 u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xlink:href="#svg-0c73"></use></svg><svg class="u-svg-content" viewBox="0 0 512 512" id="svg-0c73"><g><g><g><circle cx="256" cy="256" fill="#00ddc1" r="256"></circle>
-</g>
-</g><path d="m93.743 404.327 100.02 100.02c84.343 21.052 177.312-1.382 243.256-67.327 55.723-55.723 80.371-130.741 73.977-203.547l-115.88-115.882z" fill="#00baa0"></path><g><g><path d="m122.028 404.327h-28.285l64.301-64.301 14.142 14.142z" fill="#eef4ff"></path>
-</g><g><path d="m122.028 404.327h-14.142l57.229-57.23 7.071 7.071z" fill="#d6e9f8"></path>
-</g>
-</g><g><path d="m208.07 137.643h124v208.999h-124z" fill="#eef4ff" transform="matrix(.707 .707 -.707 .707 250.322 -120.046)"></path><path d="m261.417 159.74h61.5v208.999h-61.5z" fill="#d6e9f8" transform="matrix(.707 .707 -.707 .707 272.419 -129.199)"></path>
-</g><g><path d="m178.376 201.608h172.457v92h-172.457z" fill="#d6e9f8" transform="matrix(-.707 .707 -.707 -.707 626.793 235.59)"></path><path d="m194.816 241.298h172.457v45.5h-172.457z" fill="#b2d7f3" transform="matrix(-.707 .707 -.707 -.707 666.483 252.03)"></path>
-</g><g><path d="m146.592 321.62h44v44h-44z" fill="#7a3eb4" transform="matrix(.707 .707 -.707 .707 292.356 -18.569)"></path><path d="m165.37 329.398h22v44h-22z" fill="#613393" transform="matrix(.707 .707 -.707 .707 300.134 -21.79)"></path>
-</g><g><path d="m198.048 353.926-48.714-48.715 3.003-33.017 7.454-7.454 63.722 63.721z" fill="#eef4ff"></path><path d="m207.007 362.884-28.486-28.486 25.464-25.464 36.416 36.416-.383 14.525z" fill="#d6e9f8"></path>
-</g><g><path d="m186.648 247.027h65.074v92h-65.074z" fill="#ff6379" transform="matrix(.707 -.707 .707 .707 -143.004 240.813)"></path><path d="m203.088 286.717h65.074v45.5h-65.074z" fill="#ff415b" transform="matrix(.707 -.707 .707 .707 -149.814 257.253)"></path>
-</g><g><path d="m201.778 249.534h56.27v15h-56.27z" fill="#b2d7f3" transform="matrix(.707 .707 -.707 .707 249.091 -87.289)"></path><path d="m236.236 278.607h45.5v15h-45.5z" fill="#8bbbff" transform="matrix(.707 .707 -.707 .707 278.163 -99.332)"></path>
-</g><g><path d="m213.739 187.123h196.7v26h-196.7z" fill="#b2d7f3" transform="matrix(.707 -.707 .707 .707 -50.099 279.295)"></path><path d="m218.512 198.646h196.7v12.5h-196.7z" fill="#8bbbff" transform="matrix(.707 -.707 .707 .707 -52.076 284.068)"></path>
-</g><g><path d="m320.14 112.072h124v36.001h-124z" fill="#d6e9f8" transform="matrix(.707 .707 -.707 .707 203.901 -232.117)"></path><path d="m373.487 134.169h61.5v36.001h-61.5z" fill="#b2d7f3" transform="matrix(.707 .707 -.707 .707 225.998 -241.27)"></path>
-</g><g><path d="m281.776 142.699h62.5v26.001h-62.5z" fill="#eef4ff" transform="matrix(.707 .707 -.707 .707 201.779 -175.74)"></path><path d="m326.117 186.539h61.5v26.001h-61.5z" fill="#d6e9f8" transform="matrix(.707 .707 -.707 .707 245.62 -193.899)"></path>
-</g>
-</g></svg></span>
-                <h1 class="u-align-center u-text u-text-default u-title u-text-5" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">+103744</h1>
-                <p class="u-align-center u-text u-text-6">VACCINATED</p>
-              </div>
-            </div>
+          <div class="col-md-9">
+            <nav class="corona_menu">
+              <ul class="nav_scroll">
+                <li><a href="#home"> Home</a>
+                  <ul class="sub-menu">
+                    <li><a href="/home">Home </a></li>
+                   
+                  </ul>
+                </li>
+               
+              
+                <li><a href="#news">News </a>
+                  <ul class="sub-menu">
+                    <li><a href="/blog">Blog Grid</a></li>
+                    <li><a href="/add-blog">Add Blog </a></li>
+                  </ul>
+                </li>
+               
+              </ul>
+              
+            </nav>
           </div>
         </div>
       </div>
-    </section>
-    <section class="u-align-center u-clearfix u-image u-section-3" id="sec-fe14" data-image-width="1900" data-image-height="1086">
-      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout">
-            <div class="u-layout-row">
-              <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-26-xl u-size-27-lg u-size-28-md u-size-28-sm u-size-28-xs u-layout-cell-1">
-                <div class="u-container-layout u-valign-middle u-container-layout-1">
-                  <h5 class="u-custom-font u-font-ubuntu u-text u-text-1">E-Hospital</h5>
-                  <h1 class="u-custom-font u-font-roboto-condensed u-text u-text-custom-color-1 u-text-2">How to Protect Yourself &amp; Others</h1>
-                  <p class="u-text u-text-3">Follow these simple precautions to reduce your chances of contracting the new coronavirus, which causes the disease known as COVID-19. </p>
-                  <a href="#" class="u-border-none u-btn u-button-style u-custom-color-1 u-custom-font u-font-roboto-condensed u-text-body-alt-color u-btn-1">stay safe</a>
+    </div>
+  </div>
+  <!-- ============================================================== -->
+  <!-- End - corona Main Menu Area -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Start - Mobile Menu Area -->
+  <!-- ============================================================== -->
+  <div class=" corona_main_menu  hidden-md  hidden-lg">
+    <div class="menu_area mobile-menu">
+      <nav class="corona_menu">
+        <ul class="nav_scroll">
+          <li><a href="#home"> Home</a>
+            <ul class="sub-menu">
+              <li><a href="/home">Home </a></li>
+             
+            </ul>
+          </li>
+          
+
+          <li><a href="#news">News </a>
+            <ul class="sub-menu">
+              <li><a href="/blog">Blog Grid</a></li>
+              <li><a href="/add-blog">Add Blog </a></li>
+            </ul>
+          </li>
+         
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!-- ============================================================== -->
+  <!-- End - Mobile Menu Area -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Start - corona Slider Area -->
+  <!-- ============================================================== -->
+  <div class="slider_area d-flex align-items-center" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="slider_content">
+            <div class="slider_text">
+              <div class="slider_thumb ">
+                <div class="slider_thumb_inner rotateme">
+                  <img src="assetsc/images/01.png" alt="" />
                 </div>
               </div>
-              <div class="u-container-style u-image u-layout-cell u-right-cell u-size-32-md u-size-32-sm u-size-32-xs u-size-33-lg u-size-34-xl u-image-1">
-                <div class="u-container-layout"></div>
+              <div class="slider_text_inner pt-200">
+                <h1>Prevention of Corona Virus Disease</h1>
+                <h2>Confirmed Corona Cases : <span class="cass_active">1067454</span></h2>
+                <ul>
+                  <li>All Cases: 1067454</li>
+                  <li>Recovered cases : 30504</li>
+                  <li>Deaths: 45004</li>
+                </ul>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-2">
-          <div class="u-gutter-0 u-layout">
-            <div class="u-layout-row">
-              <div class="u-container-style u-custom-color-1 u-layout-cell u-left-cell u-size-20 u-layout-cell-3">
-                <div class="u-container-layout u-container-layout-3"><span class="u-icon u-icon-circle u-spacing-20 u-text-palette-1-base u-white u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512.002 512.002" style=""><use xlink:href="#svg-30dd"></use></svg><svg xmlns="http://www.w3.org/2000/svg" id="svg-30dd" enable-background="new 0 0 512.002 512.002" viewBox="0 0 512.002 512.002" class="u-svg-content"><g><path d="m246.993 3.007-241 181c-6.625 4.975-7.961 14.378-2.986 21.002 4.983 6.634 14.388 7.954 21.002 2.986l6.992-5.251v294.257c0 8.284 6.716 15 15 15h420c8.284 0 15-6.716 15-15v-294.257l6.992 5.251c6.624 4.975 16.026 3.638 21.002-2.986 4.975-6.624 3.638-16.027-2.986-21.002l-55.008-41.313v-96.693c0-8.284-6.716-15-15-15h-60c-8.284 0-15 6.716-15 15v29.1l-95.992-72.094c-5.336-4.008-12.68-4.008-18.016 0zm144.009 57.994h30v59.162l-30-22.531zm60 119.212v301.788h-390v-301.788l195-146.452z"></path><path d="m256.001 271.001c-41.355 0-75 33.645-75 75 0 8.284 6.716 15 15 15h120c8.284 0 15-6.716 15-15 .001-41.355-33.645-75-75-75zm-42.43 60c6.191-17.461 22.874-30 42.43-30 19.557 0 36.239 12.539 42.43 30z"></path><path d="m301.002 226.001c0-24.813-20.188-45-45-45s-45 20.187-45 45 20.187 45 45 45 45-20.187 45-45zm-45.001 15c-8.271 0-15-6.729-15-15s6.729-15 15-15 15 6.729 15 15-6.728 15-15 15z"></path><path d="m213.223 157.915c8.894-2.969 18.145-5.007 27.496-6.06 8.232-.926 14.155-8.35 13.229-16.583s-8.352-14.161-16.583-13.229c-11.438 1.287-22.756 3.781-33.641 7.415-7.858 2.623-12.102 11.12-9.479 18.978 2.624 7.86 11.122 12.101 18.978 9.479z"></path><path d="m378.76 229.742c3.451 7.517 12.351 10.835 19.89 7.374 7.529-3.457 10.831-12.362 7.374-19.891-4.785-10.424-10.692-20.389-17.559-29.618-4.944-6.646-14.34-8.027-20.988-3.082-6.646 4.945-8.026 14.341-3.082 20.988 5.619 7.553 10.452 15.704 14.365 24.229z"></path><path d="m298.028 414.336c-8.911 2.916-18.174 4.9-27.532 5.897-8.237.878-14.204 8.268-13.326 16.505.876 8.224 8.255 14.206 16.505 13.326 11.445-1.22 22.777-3.648 33.683-7.217 7.874-2.576 12.168-11.048 9.591-18.921-2.576-7.873-11.049-12.17-18.921-9.59z"></path><path d="m296.529 157.186c8.952 2.813 17.643 6.588 25.83 11.219 7.165 4.054 16.337 1.583 20.44-5.671 4.079-7.211 1.54-16.363-5.671-20.441-10.016-5.665-20.649-10.284-31.605-13.727-7.904-2.483-16.324 1.91-18.807 9.813-2.484 7.903 1.91 16.323 9.813 18.807z"></path><path d="m214.717 414.576c-8.935-2.867-17.603-6.693-25.764-11.373-7.186-4.121-16.353-1.636-20.474 5.551s-1.635 16.353 5.551 20.474c9.982 5.724 20.588 10.405 31.521 13.913 7.87 2.527 16.33-1.797 18.865-9.7 2.532-7.888-1.811-16.334-9.699-18.865z"></path><path d="m405.817 269.237c-8.283.096-14.921 6.89-14.824 15.173.112 10.11-.879 20.038-2.903 29.625-1.711 8.106 3.473 16.064 11.579 17.775 8.121 1.711 16.067-3.487 17.774-11.579 2.577-12.207 3.69-24.463 3.548-36.17-.096-8.225-6.792-14.826-14.995-14.826-.06.001-.119.002-.179.002z"></path><path d="m165.879 165.153c-5.589-6.113-15.079-6.537-21.192-.948-8.477 7.751-16.167 16.411-22.855 25.738-4.828 6.732-3.284 16.104 3.448 20.931 6.702 4.806 16.082 3.314 20.931-3.448 5.479-7.639 11.777-14.732 18.721-21.082 6.113-5.59 6.537-15.078.947-21.191z"></path><path d="m345.414 407.376c5.555 6.147 15.04 6.625 21.187 1.072 8.521-7.702 16.262-16.316 23.005-25.604 4.867-6.704 3.378-16.084-3.326-20.951-6.707-4.868-16.085-3.376-20.951 3.326-5.522 7.607-11.861 14.663-18.843 20.971-6.147 5.555-6.627 15.04-1.072 21.186z"></path><path d="m132.913 341.538c-3.412-7.549-12.297-10.903-19.847-7.49-7.549 3.412-10.902 12.298-7.49 19.847 4.724 10.452 10.573 20.451 17.384 29.72 4.881 6.642 14.262 8.134 20.97 3.205 6.676-4.905 8.111-14.294 3.205-20.97-5.573-7.584-10.358-15.764-14.222-24.312z"></path><path d="m106.079 301.881c8.284-.042 14.966-6.791 14.925-15.075.04-.834-.356-12.917 2.748-28.065 1.664-8.116-3.567-16.043-11.683-17.706-8.117-1.664-16.043 3.567-17.706 11.683-3.727 18.182-3.337 33.782-3.359 34.239.042 8.259 6.749 14.925 14.999 14.925.024-.001.05-.001.076-.001z"></path>
-</g></svg></span>
-                  <h2 class="u-align-center u-custom-font u-font-roboto-condensed u-text u-text-4">Avoid close contact</h2><span class="u-icon u-icon-circle u-text-palette-1-base u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 511.396 511.396" style=""><use xlink:href="#svg-722b"></use></svg><svg class="u-svg-content" viewBox="0 0 511.396 511.396" id="svg-722b"><g><g><path d="m255.698 0-21.334 234.667 21.334 276.729 221.553-157.314v-354.082z" fill="#0ed678"></path><path d="m34.144 0v354.082l221.554 157.314v-511.396z" fill="#04eb84"></path>
-</g><g><g><path d="m370.742 277.993c-19.739 0-38.27-7.955-50.839-21.825l-10.072-11.115 22.23-20.145 10.072 11.115c6.792 7.495 17.487 11.97 28.608 11.97 10.623 0 18.091-6.275 19.175-12.342 1.452-8.137-10.706-13.295-14.467-14.683-8.831-3.258-13.375-4.652-17.025-5.773-3.456-1.061-6.439-1.977-10.938-3.829-10.086-4.152-18.225-12.311-22.33-22.382-3.984-9.776-3.615-20.964 1.016-30.695 4.981-10.471 14.272-18.23 26.16-21.849 18.277-5.563 38.697-1.318 57.498 11.956l12.35 8.714-17.296 24.512-12.356-8.718c-11.066-7.813-22.237-10.572-31.459-7.764-3.774 1.149-6.474 3.237-7.808 6.039-1.015 2.133-1.133 4.496-.323 6.481.517 1.267 2.132 4.385 5.971 5.966 3.211 1.322 5.134 1.912 8.318 2.89 3.795 1.165 8.991 2.76 18.604 6.306 29.195 10.769 36.509 31.909 33.617 48.102-3.834 21.48-24.319 37.069-48.706 37.069z" fill="#f7f0eb"></path>
-</g>
-</g><path d="m199.631 144.902-25.142-16.367-31.744 48.764-32.035-49.059-25.119 16.402 42.119 64.503v68.328h29.803v-67.87z" fill="#fffbf5"></path><g><g fill="#f7f0eb"><path d="m293.946 277.473v-30h-38.248l-10.667 19.194 10.667 10.806z"></path><path d="m290.436 220.997v-30h-34.738l-10.667 11.67 10.667 18.33z"></path><path d="m293.946 164.521v-30h-38.248l-10.667 14.812 10.667 15.188z"></path>
-</g><path d="m246.352 164.521h9.346v-30h-39.346v142.952h39.346v-30h-9.346v-26.476h9.346v-30h-9.346z" fill="#fffbf5"></path>
-</g>
-</g></svg></span>
-                </div>
-              </div>
-              <div class="u-container-style u-layout-cell u-palette-4-base u-size-20 u-layout-cell-4">
-                <div class="u-container-layout u-container-layout-4"><span class="u-icon u-icon-circle u-spacing-20 u-text-palette-4-base u-white u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 511.988 511.988" style=""><use xlink:href="#svg-7283"></use></svg><svg xmlns="http://www.w3.org/2000/svg" id="svg-7283" enable-background="new 0 0 511.988 511.988" viewBox="0 0 511.988 511.988" class="u-svg-content"><g><path d="m394.389 120.991c5.953 0 11.586-3.568 13.932-9.433 7.964-19.911 12.174-42.93 12.174-66.571 0-8.284-6.716-15-15-15s-15 6.716-15 15c0 19.861-3.468 39.028-10.027 55.429-3.949 9.869 3.359 20.575 13.921 20.575z"></path><path d="m369.103 392.639c-7.374-3.778-16.412-.865-20.19 6.507-10.969 21.402-29.011 38.427-50.801 47.938-7.592 3.314-11.061 12.156-7.746 19.748 2.461 5.639 7.972 9.003 13.755 9.003 2.003 0 4.04-.404 5.993-1.257 28.118-12.273 51.378-34.203 65.496-61.75 3.778-7.371.865-16.411-6.507-20.189z"></path><path d="m270.401 424.406c34.82-6.506 60.093-37.381 60.093-73.414v-5.005c0-8.284-6.716-15-15-15h-43.014c5.494-17.372 21.766-30 40.931-30h17.083c8.284 0 15-6.716 15-15v-15h15.001c5.55 0 10.646-3.064 13.249-7.967 2.603-4.902 2.285-10.84-.824-15.437-9.311-13.822-34.455-50.249-45.998-63.923 4.356-19.608 4.779-40.186.997-60.413 21.237-18.305 32.576-45.048 32.576-78.26 0-8.284-6.715-14.999-14.998-15-17.758-1.279-53.55 5.654-103.459-16.828-26.537-11.952-56.084-15.866-85.435-11.316-57.177 8.86-111.914 61.244-123.186 119.144-8.841 45.42 2.856 91.465 32.092 126.328 15.953 19.024 24.826 43.17 24.984 67.893 0 24.122-2.744 23.698-73.427 131.059-10.826 15.303-16.573 32.615-16.573 50.721 0 8.284 6.716 15 15 15h240c8.284 0 15-6.716 15-15 0-22.997-9.278-44.713-26.456-62.657 5.153-4.19 14.234-7.659 26.364-9.925zm-181.905-196.367c-23.393-27.896-32.735-64.825-25.632-101.32 8.854-45.48 52.966-88.2 98.332-95.23 23.603-3.658 47.295-.537 68.52 9.024 52.458 23.629 92.628 18.819 99.725 19.473-2.735 18.43-10.794 32.775-24.076 42.925-2.017.836-3.772 2.075-5.198 3.603-5.457 3.406-11.645 6.222-18.56 8.442-25.831 8.291-46.517 25.783-58.778 48.048-7.528-7.57-16.971-12.016-27.334-12.016-25.233 0-45 26.355-45 60 0 20.79 7.546 38.795 19.267 49.52l-10.479 10.48h-46.416c-5.426-15.574-13.65-30.165-24.371-42.949zm31.997 87.074c-.03-4.734-.309-9.449-.826-14.125h45.827c3.979 0 7.794-1.58 10.606-4.393l30-30c4.29-4.29 5.573-10.742 3.252-16.347-2.322-5.605-7.791-9.26-13.858-9.26-6.116 0-15-11.687-15-30s8.884-30 15-30 15 11.687 15 30v11.046c0 8.284 6.716 15 15 15s15-6.716 15-15v-11.046c0-30.702 20.206-57.814 50.28-67.467 3.181-1.021 6.249-2.156 9.226-3.381 1.367 15.262-.167 30.11-4.121 43.932-1.812 6.331.726 12.991 6.035 16.565 4.091 4.071 16.65 21.203 30.049 40.351h-1.471c-8.284 0-15 6.716-15 15v15h-2.083c-40.206 0-72.916 32.71-72.916 72.916v2.084c0 8.284 6.716 15 15 15h43.906c-3.8 17.094-17.153 30.686-34.51 33.929-20.306 3.794-35.164 10.605-44.439 20.328-39.787-25.022-92.803-29.403-136.686-15.34 32.215-48.802 36.729-58.515 36.729-84.792zm-87.861 166.875c1.674-5.798 4.323-11.42 7.87-16.769.012-.017.026-.032.037-.049.137-.209.271-.412.408-.62 31.835-46.796 119.085-57.689 170.399-19.202 13.823 10.367 23.078 23.027 27.009 36.64z"></path><path d="m360.494 330.988c0 8.284 6.716 15 15 15h61c8.284 0 15-6.716 15-15s-6.716-15-15-15h-61c-8.284 0-15 6.715-15 15z"></path><path d="m480.901 278.676c-3.502-21.349-22.081-37.689-44.406-37.689-24.813 0-45 20.187-45 45 0 8.284 6.716 15 15 15s15-6.716 15-15c0-8.271 6.729-15 15-15s15 6.729 15 15v2.561c0 6.357 4.008 12.024 10.001 14.143 11.962 4.228 19.999 15.6 19.999 28.297s-8.037 24.069-19.999 28.297c-5.993 2.118-10.001 7.785-10.001 14.143v2.561c0 8.271-6.729 15-15 15s-15-6.729-15-15c0-8.284-6.716-15-15-15s-15 6.716-15 15c0 24.813 20.187 45 45 45 22.325 0 40.904-16.34 44.406-37.689 18.638-10.492 30.594-30.417 30.594-52.311s-11.957-41.82-30.594-52.313z"></path>
-</g></svg></span>
-                  <h2 class="u-align-center u-custom-font u-font-roboto-condensed u-text u-text-5">Cover your mouth</h2><span class="u-icon u-icon-circle u-text-palette-1-base u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 511.396 511.396" style=""><use xlink:href="#svg-b28d"></use></svg><svg class="u-svg-content" viewBox="0 0 511.396 511.396" id="svg-b28d"><g><g><path d="m255.698 0-21.334 234.667 21.334 276.729 221.553-157.314v-354.082z" fill="#0ed678"></path><path d="m34.144 0v354.082l221.554 157.314v-511.396z" fill="#04eb84"></path>
-</g><g><g><path d="m370.742 277.993c-19.739 0-38.27-7.955-50.839-21.825l-10.072-11.115 22.23-20.145 10.072 11.115c6.792 7.495 17.487 11.97 28.608 11.97 10.623 0 18.091-6.275 19.175-12.342 1.452-8.137-10.706-13.295-14.467-14.683-8.831-3.258-13.375-4.652-17.025-5.773-3.456-1.061-6.439-1.977-10.938-3.829-10.086-4.152-18.225-12.311-22.33-22.382-3.984-9.776-3.615-20.964 1.016-30.695 4.981-10.471 14.272-18.23 26.16-21.849 18.277-5.563 38.697-1.318 57.498 11.956l12.35 8.714-17.296 24.512-12.356-8.718c-11.066-7.813-22.237-10.572-31.459-7.764-3.774 1.149-6.474 3.237-7.808 6.039-1.015 2.133-1.133 4.496-.323 6.481.517 1.267 2.132 4.385 5.971 5.966 3.211 1.322 5.134 1.912 8.318 2.89 3.795 1.165 8.991 2.76 18.604 6.306 29.195 10.769 36.509 31.909 33.617 48.102-3.834 21.48-24.319 37.069-48.706 37.069z" fill="#f7f0eb"></path>
-</g>
-</g><path d="m199.631 144.902-25.142-16.367-31.744 48.764-32.035-49.059-25.119 16.402 42.119 64.503v68.328h29.803v-67.87z" fill="#fffbf5"></path><g><g fill="#f7f0eb"><path d="m293.946 277.473v-30h-38.248l-10.667 19.194 10.667 10.806z"></path><path d="m290.436 220.997v-30h-34.738l-10.667 11.67 10.667 18.33z"></path><path d="m293.946 164.521v-30h-38.248l-10.667 14.812 10.667 15.188z"></path>
-</g><path d="m246.352 164.521h9.346v-30h-39.346v142.952h39.346v-30h-9.346v-26.476h9.346v-30h-9.346z" fill="#fffbf5"></path>
-</g>
-</g></svg></span>
-                </div>
-              </div>
-              <div class="u-container-style u-layout-cell u-palette-3-base u-right-cell u-size-20 u-layout-cell-5">
-                <div class="u-container-layout u-container-layout-5"><span class="u-icon u-icon-circle u-spacing-20 u-text-palette-3-base u-white u-icon-5"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style=""><use xlink:href="#svg-7e1b"></use></svg><svg xmlns="http://www.w3.org/2000/svg" id="svg-7e1b" enable-background="new 0 0 512 512" viewBox="0 0 512 512" class="u-svg-content"><path d="m262.761 172h-159.534c-28.305 0-55.234 12.216-73.884 33.516-18.661 21.313-27.217 49.644-23.475 77.729l17.965 134.802c3.467 26.011 16.244 49.856 35.979 67.143 19.737 17.289 45.054 26.81 71.287 26.81h103.789c26.233 0 51.551-9.521 71.288-26.81 19.734-17.287 32.512-41.132 35.978-67.143l17.966-134.803c3.742-28.084-4.814-56.415-23.476-77.728-18.649-21.3-45.579-33.516-73.883-33.516zm57.709 105.96-17.966 134.803c-4.5 33.77-33.568 59.236-67.616 59.236h-103.789c-34.048 0-63.116-25.466-67.616-59.237l-17.965-134.801c-2.22-16.656 2.854-33.457 13.919-46.095 11.055-12.625 27.016-19.866 43.79-19.866h159.533c16.774 0 32.735 7.241 43.79 19.866 11.066 12.638 16.139 29.439 13.92 46.094zm116.732-203.97c-3.956 4.631-9.569 7.01-15.218 7.011-4.595 0-9.212-1.575-12.979-4.793l-22.92-19.577c-12.479-10.659-27.657-16.395-43.957-16.623l-79.887 8.669c-14.208 1.541-28.655 2.323-42.942 2.323h-15.305v41h46c11.046 0 20 8.954 20 20s-8.954 20-20 20h-132c-11.046 0-20-8.954-20-20s8.954-20 20-20h46v-41h-36c-11.046 0-20-8.954-20-20s8.954-20 20-20h91.305c12.851 0 25.847-.703 38.627-2.09l81.027-8.793c.717-.078 1.437-.117 2.158-.117 26.34 0 50.874 9.065 70.952 26.215l22.92 19.577c8.4 7.174 9.393 19.799 2.219 28.198zm-182.208 269.01c0 11.046-8.954 20-20 20h-30v30c0 11.046-8.954 20-20 20s-20-8.954-20-20v-30h-30c-11.046 0-20-8.954-20-20s8.954-20 20-20h30v-30c0-11.046 8.954-20 20-20s20 8.954 20 20v30h30c11.046 0 20 8.954 20 20zm252-150.447c0 33.331-26.916 60.447-60 60.447s-60-27.117-60-60.447c0-9.654 3.071-26.782 29.624-63.896 7.015-9.804 18.37-15.657 30.376-15.657s23.361 5.853 30.376 15.657c26.553 37.114 29.624 54.241 29.624 63.896zm-40 .013c-.01-.233-.615-9.886-20-37.588-19.526 27.905-19.998 37.495-20 37.592 0 11.257 8.972 20.43 20 20.43 11.024 0 19.993-9.165 20-20.434z"></path></svg></span>
-                  <h2 class="u-align-center u-custom-font u-font-roboto-condensed u-text u-text-body-alt-color u-text-6">Clean your hands</h2><span class="u-icon u-icon-circle u-text-palette-1-base u-icon-6"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 511.396 511.396" style=""><use xlink:href="#svg-4af4"></use></svg><svg class="u-svg-content" viewBox="0 0 511.396 511.396" id="svg-4af4"><g><g><path d="m255.698 0-21.334 234.667 21.334 276.729 221.553-157.314v-354.082z" fill="#0ed678"></path><path d="m34.144 0v354.082l221.554 157.314v-511.396z" fill="#04eb84"></path>
-</g><g><g><path d="m370.742 277.993c-19.739 0-38.27-7.955-50.839-21.825l-10.072-11.115 22.23-20.145 10.072 11.115c6.792 7.495 17.487 11.97 28.608 11.97 10.623 0 18.091-6.275 19.175-12.342 1.452-8.137-10.706-13.295-14.467-14.683-8.831-3.258-13.375-4.652-17.025-5.773-3.456-1.061-6.439-1.977-10.938-3.829-10.086-4.152-18.225-12.311-22.33-22.382-3.984-9.776-3.615-20.964 1.016-30.695 4.981-10.471 14.272-18.23 26.16-21.849 18.277-5.563 38.697-1.318 57.498 11.956l12.35 8.714-17.296 24.512-12.356-8.718c-11.066-7.813-22.237-10.572-31.459-7.764-3.774 1.149-6.474 3.237-7.808 6.039-1.015 2.133-1.133 4.496-.323 6.481.517 1.267 2.132 4.385 5.971 5.966 3.211 1.322 5.134 1.912 8.318 2.89 3.795 1.165 8.991 2.76 18.604 6.306 29.195 10.769 36.509 31.909 33.617 48.102-3.834 21.48-24.319 37.069-48.706 37.069z" fill="#f7f0eb"></path>
-</g>
-</g><path d="m199.631 144.902-25.142-16.367-31.744 48.764-32.035-49.059-25.119 16.402 42.119 64.503v68.328h29.803v-67.87z" fill="#fffbf5"></path><g><g fill="#f7f0eb"><path d="m293.946 277.473v-30h-38.248l-10.667 19.194 10.667 10.806z"></path><path d="m290.436 220.997v-30h-34.738l-10.667 11.67 10.667 18.33z"></path><path d="m293.946 164.521v-30h-38.248l-10.667 14.812 10.667 15.188z"></path>
-</g><path d="m246.352 164.521h9.346v-30h-39.346v142.952h39.346v-30h-9.346v-26.476h9.346v-30h-9.346z" fill="#fffbf5"></path>
-</g>
-</g></svg></span>
+              <div class="Slider_button pt-30">
+                <div class="button">
+                  <a href="/doctors">Find A Doctor</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    
-    
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-a295"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">Copyright&nbsp;2021&nbsp;E-Hospital</p>
-      </div></footer>
-    <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
-        <span>Website Templates</span>
-      </a>
-      <p class="u-text">
-        <span>created with</span>
-      </p>
-      <a class="u-link" href="https://nicepage.com/" target="_blank">
-        <span>Website Builder Software</span>
-      </a>. 
-    </section>
-  </body>
+    </div>
+  </div>
+  <!-- ============================================================== -->
+  <!-- End - corona Slider Area -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Start - Corona Feature Area -->
+  <!-- ============================================================== -->
+  <div class="feature_area bg_color pb-80" id="features">
+    <div class="container">
+      <div class="row uper_top">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="single_feature mb-4">
+            <div class="single_feature_icon">
+              <img src="assetsc/images/feature1.png" alt="" />
+            </div>
+            <div class="single_feature_title pt-3">
+              <h4>Human Contact</h4>
+            </div>
+            <div class="single_feature_text pt-3">
+              <p>Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="single_feature mb-4">
+            <div class="single_feature_icon">
+              <img src="assetsc/images/feature2.png" alt="" />
+            </div>
+            <div class="single_feature_title pt-3">
+              <h4>Air Transmission</h4>
+            </div>
+            <div class="single_feature_text pt-3">
+              <p>How easily a virus spreads from person-to-person can vary, Some viruses are highly contagious.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="single_feature mb-4">
+            <div class="single_feature_icon">
+              <img src="assetsc/images/feature3.png" alt="" />
+            </div>
+            <div class="single_feature_title pt-3">
+              <h4>Contaminated Objects</h4>
+            </div>
+            <div class="single_feature_text pt-3">
+              <p>Restaurants, grocery stores, food processing plants, even your home—food contamination happen.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- ============================================================== -->
+  <!-- End - Corona Feature Area -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Start - Corona Service Area -->
+  <!-- ============================================================== -->
+  <div class="service_area bg_img pb-80 pt-100" id="service">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section_title center mb-5">
+            <div class="section_title_thumb rotateme">
+              <img src="assetsc/images/lg.png" alt="" />
+            </div>
+            <div class="section_title_content pt-2">
+              <h5>Service Virus</h5>
+              <h2>Corona Virus Symptoms</h2>
+              <p>The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Also the symptoms may appear 2-14 days after exposure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="single_service mb-4">
+            <div class="single_service_icon rotateme">
+              <img src="assetsc/images/s1.png" alt="" />
+            </div>
+            <div class="single_service_title pt-3 pb-1">
+              <h4>Coughing And Sneezing</h4>
+            </div>
+            <div class="single_service_text pt-4">
+             
+            </div>
+            <div class="single_service_button">
+              <a href="/blog">discover</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="single_service mb-4">
+            <div class="single_service_icon rotateme2">
+              <img src="assetsc/images/s3.png" alt="" />
+            </div>
+            <div class="single_service_title pt-3 pb-1">
+              <h4>Strong Headacke</h4>
+            </div>
+            <div class="single_service_text pt-4">
+              
+            </div>
+            <div class="single_service_button">
+              <a href="/blog">discover</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="single_service mb-4">
+            <div class="single_service_icon rotateme">
+              <img src="assetsc/images/s5.png" alt="" />
+            </div>
+            <div class="single_service_title pt-3 pb-1">
+              <h4>Confusion</h4>
+            </div>
+            <div class="single_service_text pt-4">
+          
+            </div>
+            <div class="single_service_button">
+              <a href="/blog">discover</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="single_service mb-4">
+            <div class="single_service_icon rotateme2">
+              <img src="assetsc/images/s2.png" alt="" />
+            </div>
+            <div class="single_service_title pt-3 pb-1">
+              <h4>Hot Fever</h4>
+            </div>
+            <div class="single_service_text pt-4">
+              
+            </div>
+            <div class="single_service_button">
+              <a href="/blog">discover</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="single_service mb-4">
+            <div class="single_service_icon rotateme">
+              <img src="assetsc/images/s6.png" alt="" />
+            </div>
+            <div class="single_service_title pt-3 pb-1">
+              <h4>Shortness Of Breath</h4>
+            </div>
+            <div class="single_service_text pt-4">
+            
+            </div>
+            <div class="single_service_button">
+              <a href="/blog">discover</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="single_service mb-4">
+            <div class="single_service_icon rotateme2">
+              <img src="assetsc/images/s4.png" alt="" />
+            </div>
+            <div class="single_service_title pt-3 pb-1">
+              <h4>Sore Throat</h4>
+            </div>
+            <div class="single_service_text pt-4">
+             
+            </div>
+            <div class="single_service_button">
+              <a href="/blog">discover</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- ============================================================== -->
+  <!-- End - Corona Service Area -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Start - Corona About Area -->
+  <!-- ============================================================== -->
+
+  <div class="about_area bg_color pb-60 pt-80">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="single_about_thumb mb-4">
+            <img src="assetsc/images/about1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="section_title left pb-4">
+            <div class="section_title_thumb rotateme">
+              <img src="assetsc/images/lg.png" alt="" />
+            </div>
+            <div class="section_title_content pt-80">
+              <h5>ABOUT CORONA VIRUS</h5>
+              <h2>Corona Virus Is More Dangerous In The All World</h2>
+              <p>The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal forest congestion, runny nose, sore throat or diarrhea. </p>
+            </div>
+          </div>
+          <div class="single_about mb-2">
+            <div class="single_about_icon mr-2">
+              <i class="fa fa-check-circle"></i>
+            </div>
+            <div class="single_about_text">
+              <p>Once contaminated.</p>
+            </div>
+          </div>
+          <div class="single_about mb-2">
+            <div class="single_about_icon mr-2">
+              <i class="fa fa-check-circle"></i>
+            </div>
+            <div class="single_about_text">
+              <p>Hands can transfer the virus</p>
+            </div>
+          </div>
+          <div class="single_about mb-2">
+            <div class="single_about_icon mr-2">
+              <i class="fa fa-check-circle"></i>
+            </div>
+            <div class="single_about_text">
+              <p>The most symptoms COVID-19 fever</p>
+            </div>
+          </div>
+          <div class="about_button pt-3">
+            <div class="button">
+              <a href="/blog">More About</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="about_area bg_color pb-80">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="section_title left pb-4">
+            <div class="section_title_thumb rotateme">
+              <img src="assetsc/images/lg.png" alt="" />
+            </div>
+            <div class="section_title_content pt-80">
+              <h5>MORE INFORMATION COVID -19</h5>
+              <h2>Take More Information About Corona Visus.</h2>
+              <p>The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal forest congestion, runny nose, sore throat or diarrhea.p>
+            </div>
+          </div>
+          <div class="single_about mb-2">
+            <div class="single_about_icon mr-2">
+              <i class="fa fa-check-circle"></i>
+            </div>
+            <div class="single_about_text">
+              <p>Once contaminated.</p>
+            </div>
+          </div>
+          <div class="single_about mb-2">
+            <div class="single_about_icon mr-2">
+              <i class="fa fa-check-circle"></i>
+            </div>
+            <div class="single_about_text">
+              <p>Hands can transfer the virus</p>
+            </div>
+          </div>
+          <div class="single_about mb-2">
+            <div class="single_about_icon mr-2">
+              <i class="fa fa-check-circle"></i>
+            </div>
+            <div class="single_about_text">
+              <p>The most symptoms COVID-19 fever</p>
+            </div>
+          </div>
+          <div class="about_button pt-3">
+            <div class="button">
+              <a href="/blog">More About</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="single_about_thumb mt-4">
+            <img src="assetsc/images/about2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================== -->
+  <!-- End - Corona About Area -->
+  <!-- ============================================================== -->
+
+
+  <!-- ============================================================== -->
+  <!-- Start - Corona Team Area -->
+  <!-- ============================================================== -->
+  <div class="team_area bg_img pb-50 pt-80">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section_title center mb-5">
+            <div class="section_title_thumb rotateme">
+              <img src="assetsc/images/lg.png" alt="" />
+            </div>
+            <div class="section_title_content pt-2">
+              <h5>Corona Virus Doctor</h5>
+              <h2>Coronavrius Specialist</h2>
+              <p>The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Also the symptoms may appear 2-14 days after exposure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="single_team mb-4">
+            <div class="single_team_thumb">
+              <img src="assetsc/images/doctor1.jpg" alt="" />
+            </div>
+            <div class="single_team_icon">
+              <div class="single_team_icon_inner">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="single_team_content">
+              <h4>Dr. Salina Haeue</h4>
+              <span>BBA Doctor</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="single_team mb-4">
+            <div class="single_team_thumb">
+              <img src="assetsc/images/doctor2.jpg" alt="" />
+            </div>
+            <div class="single_team_icon">
+              <div class="single_team_icon_inner">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="single_team_content">
+              <h4>Dr. Mahabub Alam</h4>
+              <span>Corona Spechalist</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="single_team mb-4">
+            <div class="single_team_thumb">
+              <img src="assetsc/images/docror3.jpg" alt="" />
+            </div>
+            <div class="single_team_icon">
+              <div class="single_team_icon_inner">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="single_team_content">
+              <h4>Dr. Dilruba Khan</h4>
+              <span>MBBA Doctor</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="single_team mb-4">
+            <div class="single_team_thumb">
+              <img src="assetsc/images/doctor4.jpg" alt="" />
+            </div>
+            <div class="single_team_icon">
+              <div class="single_team_icon_inner">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="single_team_content">
+              <h4>Dr. Abraham</h4>
+              <span>Covid-19 Spechalist</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================== -->
+  <!-- End - Corona Team Area -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Start - Corona Process Area -->
+  <!-- ============================================================== -->
+  <div class="process_area bg_color pb-50 pt-80">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section_title center mb-5">
+            <div class="section_title_thumb rotateme">
+              <img src="assetsc/images/lg.png" alt="" />
+            </div>
+            <div class="section_title_content pt-2">
+              <h5>Corona Virus Doctor</h5>
+              <h2>Coronavrius Specialist</h2>
+              <p>The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Also the symptoms may appear 2-14 days after exposure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="single_process mb-4">
+            <div class="single_process_thumb">
+              <img src="assetsc/images/p1.jpg" alt="" />
+            </div>
+            <div class="single_process_number">
+              <span>01</span>
+            </div>
+            <div class="single_process_content pt-3">
+              <h5>Wet Hands</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="single_process mb-4">
+            <div class="single_process_thumb">
+              <img src="assetsc/images/p2.jpg" alt="" />
+            </div>
+            <div class="single_process_number">
+              <span>02</span>
+            </div>
+            <div class="single_process_content pt-3">
+              <h5>Apply Soap</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="single_process mb-4">
+            <div class="single_process_thumb">
+              <img src="assetsc/images/p3.jpg" alt="" />
+            </div>
+            <div class="single_process_number">
+              <span>03</span>
+            </div>
+            <div class="single_process_content pt-3">
+              <h5>Rub Hands Plan to plan</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="single_process mb-4">
+            <div class="single_process_thumb">
+              <img src="assetsc/images/p4.jpg" alt="" />
+            </div>
+            <div class="single_process_number">
+              <span>04</span>
+            </div>
+            <div class="single_process_content pt-3">
+              <h5>Lather The Back of Both Hands</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="single_process mb-4">
+            <div class="single_process_thumb">
+              <img src="assetsc/images/p5.jpg" alt="" />
+            </div>
+            <div class="single_process_number">
+              <span>05</span>
+            </div>
+            <div class="single_process_content pt-3">
+              <h5>Scrub Between Your Fingers</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="single_process mb-4">
+            <div class="single_process_thumb">
+              <img src="assetsc/images/p6.jpg" alt="" />
+            </div>
+            <div class="single_process_number">
+              <span>06</span>
+            </div>
+            <div class="single_process_content pt-3">
+              <h5>Rub The Back of Fingers on The Opposing Plan</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="single_process mb-4">
+            <div class="single_process_thumb">
+              <img src="assetsc/images/p7.jpg" alt="" />
+            </div>
+            <div class="single_process_number">
+              <span>07</span>
+            </div>
+            <div class="single_process_content pt-3">
+              <h5>Clean Thumbs</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="single_process mb-4">
+            <div class="single_process_thumb">
+              <img src="assetsc/images/p8.jpg" alt="" />
+            </div>
+            <div class="single_process_number">
+              <span>08</span>
+            </div>
+            <div class="single_process_content pt-3">
+              <h5>Wash Fingernails And Fingerips</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="single_process mb-4">
+            <div class="single_process_thumb">
+              <img src="assetsc/images/p1.jpg" alt="" />
+            </div>
+            <div class="single_process_number">
+              <span>09</span>
+            </div>
+            <div class="single_process_content pt-3">
+              <h5>Rinse Hands</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="single_process mb-4">
+            <div class="single_process_thumb">
+              <img src="assetsc/images/p9.jpg" alt="" />
+            </div>
+            <div class="single_process_number">
+              <span>10</span>
+            </div>
+            <div class="single_process_content pt-3">
+              <h5>Dry with a Single Use Towel</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="single_process mb-4">
+            <div class="single_process_thumb">
+              <img src="assetsc/images/p10.jpg" alt="" />
+            </div>
+            <div class="single_process_number">
+              <span>11</span>
+            </div>
+            <div class="single_process_content pt-3">
+              <h5>Use The Towel to Rurn off The Foucet</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="single_process mb-4">
+            <div class="single_process_thumb">
+              <img src="assetsc/images/p11.jpg" alt="" />
+            </div>
+            <div class="single_process_number">
+              <span>12</span>
+            </div>
+            <div class="single_process_content pt-3">
+              <h5>Your Hands Are Clean</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- ============================================================== -->
+  <!-- End - Corona Process Area -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Start - Corona Prevention Area -->
+  <!-- ============================================================== -->
+  <div class="prevention_area bg_img pb-60 pt-80">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section_title center mb-5">
+            <div class="section_title_thumb rotateme">
+              <img src="assetsc/images/lg.png" alt="" />
+            </div>
+            <div class="section_title_content pt-2">
+              <h5>Prevention</h5>
+              <h2>Prevention & Advice Specialist</h2>
+              <p>The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Also the symptoms may appear 2-14 days after exposure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="main_prevention mr-3">
+            <div class="single_prevention mb-4">
+              <div class="single_prevention_thumb mr-3">
+                <img src="assetsc/images/s1.png" alt="" />
+              </div>
+              <div class="single_prevention_content">
+                <h4>Coughing And Seneezing</h4>
+                
+              </div>
+            </div>
+            <div class="single_prevention mb-4">
+              <div class="single_prevention_thumb mr-3">
+                <img src="assetsc/images/about2.png" alt="" />
+              </div>
+              <div class="single_prevention_content">
+                <h4>Ware a face mask outside</h4>
+               
+              </div>
+            </div>
+            <div class="single_prevention mb-4">
+              <div class="single_prevention_thumb mr-3">
+                <img src="assetsc/images/pr6.png" alt="" />
+              </div>
+              <div class="single_prevention_content">
+                <h4>Cover your cough tissue paper</h4>
+                
+              </div>
+            </div>
+            <div class="single_prevention mb-4">
+              <div class="single_prevention_thumb mr-3">
+                <img src="assetsc/images/doctor4.jpg" alt="" />
+              </div>
+              <div class="single_prevention_content">
+                <h4>Check your body regulerly</h4>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="main_prevention ml-3">
+            <div class="single_prevention mb-4">
+              <div class="single_prevention_thumb mr-3">
+                <img src="assetsc/images/pr1.png" alt="" />
+              </div>
+              <div class="single_prevention_content">
+                <h4>Avoid contact with sick people</h4>
+               
+              </div>
+            </div>
+            <div class="single_prevention mb-4">
+              <div class="single_prevention_thumb mr-3">
+                <img src="assetsc/images/pr2.png" alt="" />
+              </div>
+              <div class="single_prevention_content">
+                <h4>Avoid crowded places</h4>
+               
+              </div>
+            </div>
+            <div class="single_prevention mb-4">
+              <div class="single_prevention_thumb mr-3">
+                <img src="assetsc/images/pr3.png" alt="" />
+              </div>
+              <div class="single_prevention_content">
+                <h4>Avoid contact animals</h4>
+               
+              </div>
+            </div>
+            <div class="single_prevention mb-4">
+              <div class="single_prevention_thumb mr-3">
+                <img src="assetsc/images/pr5.png" alt="" />
+              </div>
+              <div class="single_prevention_content">
+                <h4>Contaminated objects</h4>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================== -->
+  <!-- End - Corona Prevention Area -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Start - Corona Accordion Area -->
+  <!-- ============================================================== -->
+  <div class="accordion_area bg_color pb-60 pt-80">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section_title center mb-5">
+            <div class="section_title_thumb rotateme">
+              <img src="assetsc/images/lg.png" alt="" />
+            </div>
+            <div class="section_title_content pt-2">
+              <h5>F A Q</h5>
+              <h2>Some Question & Answer</h2>
+              <p>The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Also the symptoms may appear 2-14 days after exposure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xm-12">
+          <div id="accordion">
+            <div class="card mb-4">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What is a coronavirus and COVID-19?
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  On February 11, 2020 the World Health Organization announced an official name for the disease that is causing the 2019 novel coronavirus outbreak, first identified in Wuhan China. The new name of this disease is coronavirus disease 2019, abbreviated as COVID-19. In COVID-19, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease. Formerly, this disease was referred to as “2019 novel coronavirus” or “2019-nCoV”.
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How to Protect Yourself ?
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority. Many countries around the world have seen cases of COVID-19 and several have seen outbreaks. Authorities in China and some other countries have succeeded in slowing or stopping their outbreaks. However, the situation is unpredictable so check regularly for the latest news.
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Symptoms & Testing
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don’t feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention.
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4">
+              <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Symptoms & Testing
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="card-body">
+                  Coronaviruses are a large family of viruses. Some cause illness in people, and others, such as canine and feline coronaviruses, only infect animals. Rarely, animal coronaviruses that infect animals have emerged to infect people and can spread between people. This is suspected to have occurred for the virus that causes COVID-19. Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS) are two other examples of coronaviruses that originated from animals and then spread to people. More information about the source and spread of COVID-19 is available on the Situation Summary: Source and Spread of the Virus.
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================== -->
+  <!-- End - Corona Accordion Area -->
+  <!-- ============================================================== -->
+
+
+
+  <!-- ============================================================== -->
+  <!-- Start - corona Blog Area -->
+  <!-- ============================================================== -->
+  <div class="blog_area bg_img pb-60 pt-80">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section_title center mb-5">
+            <div class="section_title_thumb rotateme">
+              <img src="assetsc/images/lg.png" alt="" />
+            </div>
+            <div class="section_title_content pt-2">
+              <h5>Popular Blog</h5>
+              <h2>Latest Update Coronavirus</h2>
+              <p>The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Also the symptoms may appear 2-14 days after exposure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="blog_list owl-carousel curosel-style">
+          <!-- Single Blog -->
+          <div class="col-md-12">
+            <div class="single_blog mb-4">
+              <div class="single_blog_inner">
+                <div class="single_blog_thumb">
+                  <img src="assetsc/images/b2.jpg" alt="" />
+                </div>
+                <div class="single_blog_content pl-4 pr-4 pb-3">
+                  <div class="single_blog_meta">
+                    <div class="single_blog_meta_date pr-2">
+                      <span>Corona Jun 22, 2020.</span>
+                    </div>
+                  </div>
+                  <div class="single_blog_title pt-2 pb-3">
+                    <h4><a href="blog-details.html">Conulting Reporting Qouncil Arei Not Could More...</a></h4>
+                  </div>
+                  <div class="single_blog_text">
+                    <p>A reader will be distracted by the readable content offs page when looking at its layout the point.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Single Blog -->
+          <div class="col-md-12">
+            <div class="single_blog mb-4">
+              <div class="single_blog_inner">
+                <div class="single_blog_thumb">
+                  <img src="assetsc/images/b3.jpg" alt="" />
+                </div>
+                <div class="single_blog_content pl-4 pr-4 pb-3">
+                  <div class="single_blog_meta">
+                    <div class="single_blog_meta_date pr-2">
+                      <span>Corona April 25, 2020.</span>
+                    </div>
+                  </div>
+                  <div class="single_blog_title pt-2 pb-3">
+                    <h4><a href="blog-details.html">Financial Reporting Qouncil What Could More...</a></h4>
+                  </div>
+                  <div class="single_blog_text">
+                    <p>A reader will be distracted by the readable content offs page when looking at its layout the point.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Single Blog -->
+          <div class="col-md-12">
+            <div class="single_blog mb-4">
+              <div class="single_blog_inner">
+                <div class="single_blog_thumb">
+                  <img src="assetsc/images/b4.jpg" alt="" />
+                </div>
+                <div class="single_blog_content pl-4 pr-4 pb-3">
+                  <div class="single_blog_meta">
+                    <div class="single_blog_meta_date pr-2">
+                      <span>Corona July 15, 2020.</span>
+                    </div>
+                  </div>
+                  <div class="single_blog_title pt-2 pb-3">
+                    <h4><a href="blog-details.html">Consulting Reporting Qounc Arei Could More...</a></h4>
+                  </div>
+                  <div class="single_blog_text">
+                    <p>A reader will be distracted by the readable content offs page when looking at its layout the point.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Single Blog -->
+          <div class="col-md-12">
+            <div class="single_blog mb-4">
+              <div class="single_blog_inner">
+                <div class="single_blog_thumb">
+                  <img src="assetsc/images/b.jpg" alt="" />
+                </div>
+                <div class="single_blog_content pl-4 pr-4 pb-3">
+                  <div class="single_blog_meta">
+                    <div class="single_blog_meta_date pr-2">
+                      <span>Corona July 23, 2020.</span>
+                    </div>
+                  </div>
+                  <div class="single_blog_title pt-2 pb-3">
+                    <h4><a href="blog-details.html">The release of Letraset sheets contains four</a></h4>
+                  </div>
+                  <div class="single_blog_text">
+                    <p>A reader will be distracted by the readable content offs page when looking at its layout the point.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Single Blog -->
+          <div class="col-md-12">
+            <div class="single_blog mb-4">
+              <div class="single_blog_inner">
+                <div class="single_blog_thumb">
+                  <img src="assetsc/images/b1.jpg" alt="" />
+                </div>
+                <div class="single_blog_content pl-4 pr-4 pb-3">
+                  <div class="single_blog_meta">
+                    <div class="single_blog_meta_date pr-2">
+                      <span>Corona April 21, 2020.</span>
+                    </div>
+                  </div>
+                  <div class="single_blog_title pt-2 pb-3">
+                    <h4><a href="blog-details.html">The release of Letraset sheets contains four</a></h4>
+                  </div>
+                  <div class="single_blog_text">
+                    <p>A reader will be distracted by the readable content offs page when looking at its layout the point.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ============================================================== -->
+  <!-- End - corona Blog Area -->
+  <!-- ============================================================== -->
+
+  <!-- ============================================================== -->
+  <!-- Start - corona Footer Area -->
+  <!-- ============================================================== -->
+  <div class="footer_area bg_color pt-80 pb-120">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="single_footer">
+            <div class="single_footer_title pb-2">
+              <img src="assetsc/images/1.png" alt="" />
+            </div>
+            <div class="single_footer_text">
+              
+            </div>
+            <div class="footer_icon pt-2">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="single_footer">
+           
+  
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="single_footer">
+            <div class="single_footer_title pb-4">
+              <h4>Recent Update</h4>
+            </div>
+            <div class="single_footer_recent">
+              <div class="single_footer_recent_thumb">
+                <img src="assetsc/images/recent1.jpg" alt="" />
+              </div>
+              <div class="single_footer_recent_content">
+                <a href="#">Caring for someone at home</a>
+                <span>April 11. 2020</span>
+              </div>
+            </div>
+            <div class="single_footer_recent mt-3">
+              <div class="single_footer_recent_thumb">
+                <img src="assetsc/images/recent2.jpg" alt="" />
+              </div>
+              <div class="single_footer_recent_content">
+                <a href="#">What to Do if You are feeling</a>
+                <span>April 23. 2020</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Footer Shape Image -->
+    <div class="footer_shape">
+      <div class="clouds">
+        <img src="assetsc/images/boy1.png" alt="01" class="cloud1" />
+      </div>
+    </div>
+    <div class="footer_shape">
+      <div class="clouds">
+        <img src="assetsc/images/boy3.png" alt="02" class="cloud2" />
+      </div>
+    </div>
+
+    <div class="footer_shape">
+      <div class="clouds">
+        <img src="assetsc/images/boy2.png" alt="03" class="cloud3" />
+      </div>
+    </div>
+    <div class="footer_shape">
+      <div class="clouds">
+        <img src="assetsc/images/boy4.png" alt="04" class="cloud4" />
+      </div>
+    </div>
+  </div>
+
+  <!-- jquery js -->
+  <script type="text/javascript" src="assetsc/js/vendor/jquery-3.2.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="assetsc/js/bootstrap.min.js"></script>
+  <!-- carousel js -->
+  <script type="text/javascript" src="assetsc/js/owl.carousel.min.js"></script>
+  <!-- counterup js -->
+  <script type="text/javascript" src="assetsc/js/jquery.counterup.min.js"></script>
+  <!-- waypoints js -->
+  <script type="text/javascript" src="assetsc/js/waypoints.min.js"></script>
+  <script type="text/javascript" src="assetsc/js/jquery.counterup.min.js"></script>
+  <!-- imagesloaded js -->
+  <script type="text/javascript" src="assetsc/js/imagesloaded.pkgd.min.js"></script>
+  <!-- isotope js -->
+  <script type="text/javascript" src="assetsc/js/isotope.pkgd.min.js"></script>
+  <!-- animated js -->
+  <script type="text/javascript" src="assetsc/js/animated-text.js"></script>
+  <!-- venobox js -->
+  <script type="text/javascript" src="venobox/venobox.js"></script>
+  <!-- venobox min js -->
+  <script type="text/javascript" src="venobox/venobox.min.js"></script>
+  <!-- jquery js -->
+  <script type="text/javascript" src="assetsc/js/jquery.meanmenu.js"></script>
+  <script type="text/javascript" src="assetsc/js/jquery.nav.js"></script>
+  <script type="text/javascript" src="assetsc/js/jquery.scrollUp.js"></script>
+  <script type="text/javascript" src="assetsc/js/contact-form-script.html"></script>
+  <script type="text/javascript" src="assetsc/js/form-validator.min.html"></script>
+  <!-- theme js -->
+  <script type="text/javascript" src="assetsc/js/theme.js"></script>
+</body>
+
+
 </html>
