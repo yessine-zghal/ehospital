@@ -29,22 +29,13 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/patients', [App\Http\Controllers\PatientsController::class, 'index']);
 Route::get('/home', [App\Http\Controllers\FileUpload::class, 'showfile'  ])->name('home');
 Route::get('/patients/{id}', [App\Http\Controllers\PatientsController::class, 'show'  ]);
-//appointments
 Route::get('/appointments', [App\Http\Controllers\AppointmentsController::class, 'index'])->name('appointments');
 Route::get('/add-appointment', [App\Http\Controllers\AppointmentsController::class, 'show'])->name('add-appointments');
 
 Route::post('/add-appointment', [App\Http\Controllers\AppointmentsController::class, 'store'])->name('add-appointment');
 
 Route::get('/schedule', [App\Http\Controllers\ScheduleController::class, 'index'])->name('schedule');
-//departments
 Route::get('/departments', [App\Http\Controllers\DepartmentsController::class, 'index'])->name('departments');
-Route::get('/dentalcare', [App\Http\Controllers\DepartmentsController::class, 'dentalcare']);
-Route::get('/covid', [App\Http\Controllers\DepartmentsController::class, 'covid']);
-Route::get('/eyecare', [App\Http\Controllers\DepartmentsController::class, 'eyecare']);
-Route::get('/notyet', [App\Http\Controllers\DepartmentsController::class, 'notyet']);
-Route::get('/gynecologue', [App\Http\Controllers\DepartmentsController::class, 'gynecologue']);
-
-//blogs
 Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index'])->name('blog');
 Route::get('/add-blog', [App\Http\Controllers\BlogController::class, 'addblog'])->name('add-blog');
 Route::put('/add-blog', [App\Http\Controllers\BlogController::class, 'store'])->name('store-blog');

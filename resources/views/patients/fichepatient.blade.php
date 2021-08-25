@@ -72,11 +72,9 @@
                                         
                                     </div>
                                     
-                                    {{ $patient->patientrecord }}
-          
-                                    
+                                   
       
-                                    
+         
        
                                  
                                 </div>

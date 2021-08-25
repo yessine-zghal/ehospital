@@ -24,27 +24,6 @@ class DepartmentsController extends Controller
      */
     public function index()
     {  
-        return view('departments.departments');
+        return view('departments');
     }
-    public function dentalcare()
-    {  
-        return view('departments.dentalcare');
-    }
-    public function covid()
-    {  
-        return view('departments.covid');
-    }
-    public function eyecare()
-    {  
-        return view('departments.eyecare');
-    }
-    public function notyet()
-    {  
-        return view('departments.notyet');
-    }
-    public function gynecologue(){
-        return view('departments.gynecologue');
-
-    }
-
 }

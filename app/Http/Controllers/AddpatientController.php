@@ -45,7 +45,6 @@ class AddpatientController extends Controller
         $patient->gendre = $request->gender;
 
         if($request->hasFile('file')) {
-          
 
             $destination = 'storage/uploads/patiens/'.$patient->file;
             $file = $request->file('file');
@@ -53,19 +52,6 @@ class AddpatientController extends Controller
             $filename = time().'.'.$extension;
             $file->move('storage/uploads/patiens/', $filename);
             $patient->file = $filename;
-
-        }
-        if($request->hasFile('patientrecord')) {
-            $request->validate([
-                'patientrecord' => 'required|mimes:png,jpg,csv,txt,xlx,xls,pdf|max:2048'
-                ]);
-
-            $destination = 'storage/uploads/patiensrecord/'.$patient->patientrecord;
-            $file = $request->file('patientrecord');
-            $extension = $file->getClientOriginalExtension();
-            $filename = time().'.'.$extension;
-            $file->move('storage/uploads/patiensrcord/', $filename);
-            $patient->patientrecord = $filename;
 
         }
         
