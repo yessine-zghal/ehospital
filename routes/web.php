@@ -55,7 +55,7 @@ Route::get('/gallery', [App\Http\Controllers\GalleryController::class, 'index'])
 Route::get('/add-patient', [App\Http\Controllers\AddpatientController::class, 'index'])->name('add-patient');
 Route::put('/add-patient', [App\Http\Controllers\AddpatientController::class, 'store'])->name('add-patient-post');
 Route::delete('/patients/{id}', [App\Http\Controllers\PatientsController::class, 'destroy']);
-Route::post('/add-patient', [App\Http\Controllers\FileUpload::class, 'fileUpload'])->name('fileUpload');
+
 
 
 // Employees
