@@ -29,6 +29,7 @@ class CreatePatientsTable extends Migration
             $table->integer('phone');
             $table->string('gendre');
             $table->string('file');
+            $table->string('patientrecord');
             
 
 

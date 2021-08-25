@@ -23,6 +23,7 @@ class Patient extends Model
         'phone',
         'gendre',
         'file',
+        'patientrecord',
     ];
 
    

@@ -8,36 +8,7 @@
                         <h4 class="page-title">Add Patient</h4>
                     </div>
                 </div>
-                <div class="container mt-5">
-        <form action="{{route('fileUpload')}}" method="post" enctype="multipart/form-data">
-          <h3 class="text-center mb-5">Upload  patient's medical record</h3>
-            @csrf
-            @if ($message = Session::get('success'))
-            <div class="alert alert-success">
-                <strong>{{ $message }}</strong>
-            </div>
-          @endif
-
-          @if (count($errors) > 0)
-            <div class="alert alert-danger">
-                <ul>
-                    @foreach ($errors->all() as $error)
-                      <li>{{ $error }}</li>
-                    @endforeach
-                </ul>
-            </div>
-          @endif
-
-            <div class="custom-file">
-                <input type="file" name="file" class="custom-file-input" id="chooseFile">
-                <label class="custom-file-label" for="chooseFile">Select file</label>
-            </div>
-
-            <button type="submit" name="submit" class="btn btn-primary btn-block mt-4">
-                Upload Files
-            </button>
-        </form>
-      </div>
+       
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2">
                         <form action="{{ route('add-patient-post') }}" method="POST" enctype='multipart/form-data'>
@@ -145,6 +116,17 @@
                                             </div>
                                             <div class="upload-input">
                                                 <input type="file" class="form-control" id="file" name="file">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label>patient'record</label>
+                                        <div class="profile-upload">
+                                           
+                                            <div class="upload-input">
+                                                <input type="file" class="form-control" id="patientrecord" name="patientrecord">
                                             </div>
                                         </div>
                                     </div>
