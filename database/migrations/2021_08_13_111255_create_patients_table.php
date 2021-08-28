@@ -30,6 +30,8 @@ class CreatePatientsTable extends Migration
             $table->string('gendre');
             $table->string('file');
             $table->string('patientrecord');
+            $table->string('covid_check');
+
             
 
 

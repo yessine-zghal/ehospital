@@ -1,4 +1,7 @@
 $(document).ready(function () {
+
+    
+
     var barChartData = {
         labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
         datasets: [
@@ -24,6 +27,12 @@ $(document).ready(function () {
         data: barChartData,
         options: { responsive: true, legend: { display: false } },
     });
+    var couunts =[0,0,0,0,0,0,0,0,0,0,0,0]
+    for(let i=0;i<patients.length;i++){
+       let datte = patients[i]['created_at'];
+       let month = Number(datte.substr(5,2));
+       couunts[month-1]++;
+    }
     var lineChartData = {
         labels: [
             "Jan",
@@ -43,14 +52,9 @@ $(document).ready(function () {
             {
                 label: "My First dataset",
                 backgroundColor: "rgba(0, 158, 251, 0.5)",
-                data: [100, 70, 20, 100, 120, 50, 70, 50, 50, 100, 50, 90],
+                data: couunts,
             },
-            {
-                label: "My Second dataset",
-                backgroundColor: "rgba(255, 188, 53, 0.5)",
-                fill: true,
-                data: [28, 48, 40, 19, 86, 27, 20, 90, 50, 20, 90, 20],
-            },
+            
         ],
     };
     var linectx = document.getElementById("linegraph").getContext("2d");

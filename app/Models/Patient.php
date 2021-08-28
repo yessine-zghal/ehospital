@@ -24,6 +24,7 @@ class Patient extends Model
         'gendre',
         'file',
         'patientrecord',
+        'covid_check',
     ];
 
    

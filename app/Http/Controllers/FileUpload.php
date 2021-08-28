@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\File;
+use App\Models\Patient;
+use App\Models\Doctor;
 
 class FileUpload extends Controller
 {
@@ -11,8 +13,22 @@ class FileUpload extends Controller
     public function showfile() {
         // use the $id variable to query the db for a record
         $files = file::all();
+        $patients = Patient::all();
+        $doctors = Doctor::all();
+        $covid_oui=0;
+        $covid_non=0;
+        foreach($patients as $key =>$patient){
+            if($patient->covid_check == 'oui'){
+                $covid_oui++;
+            }
+            else{
+                $covid_non++;
+            }
+        }
+
+
         
-        return view('home', compact('files'));
+        return view('home', compact('files', 'patients','doctors','covid_oui','covid_non'));
     }
     public function fileUpload(Request $req){
         $req->validate([
