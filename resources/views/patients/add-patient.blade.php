@@ -142,7 +142,6 @@
                                     </div>
                                     
                                 </div>
-                                
                             </div>
                             <div class="form-group gender-select">
                                             <label for="gender">Covid etat</label>

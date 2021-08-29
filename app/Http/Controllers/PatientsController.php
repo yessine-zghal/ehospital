@@ -6,6 +6,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Patient;
 use App\Models\File;
+use DB;
+use PDF;
 
 class PatientsController extends Controller
 {
@@ -41,6 +43,7 @@ class PatientsController extends Controller
       
       
       }
+     
       public function destroy($id) {
 
         $patient = patient::findOrFail($id);

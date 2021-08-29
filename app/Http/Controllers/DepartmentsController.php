@@ -46,5 +46,9 @@ class DepartmentsController extends Controller
         return view('departments.gynecologue');
 
     }
+    public function esthetic(){
+        return view('departments.esthetic');
+
+    }
 
 }
