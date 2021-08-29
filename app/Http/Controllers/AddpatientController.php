@@ -44,6 +44,12 @@ class AddpatientController extends Controller
         $patient->phone = $request->phone;
         $patient->gendre = $request->gender;
         $patient->covid_check = $request->covid_check;
+        if($request->covid_check == 'oui'){
+
+            $patient->covid_etat = $request->covid_etat;
+        }
+        
+
 
 
         if($request->hasFile('file')) {

@@ -31,6 +31,8 @@ class CreatePatientsTable extends Migration
             $table->string('file');
             $table->string('patientrecord');
             $table->string('covid_check');
+            $table->string('covid_etat')->nullable();
+
 
             
 

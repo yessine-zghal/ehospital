@@ -140,8 +140,19 @@
                                             <input type="file" class="form-control" id="patientrecord" name="patientrecord">
                                         </div>
                                     </div>
+                                    
                                 </div>
+                                
                             </div>
+                            <div class="form-group gender-select">
+                                            <label for="gender">Covid etat</label>
+                                            <select class="form-control select" name="covid_etat" id="covid_etat">
+                                                <option>home</option>
+                                                <option>hospital</option>
+                                                <option>ranimation</option>
+                                                <option>save</option>
+                                            </select>
+                                        </div>
 
                         </div>
 

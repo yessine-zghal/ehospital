@@ -25,6 +25,7 @@ class Patient extends Model
         'file',
         'patientrecord',
         'covid_check',
+        'covid_etat',
     ];
 
    

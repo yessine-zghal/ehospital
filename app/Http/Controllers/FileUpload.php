@@ -17,9 +17,28 @@ class FileUpload extends Controller
         $doctors = Doctor::all();
         $covid_oui=0;
         $covid_non=0;
+        $covid_home=0;
+        $covid_hospital=0;
+        $covid_reanimation=0;
+        $covid_recovered=0;
+
         foreach($patients as $key =>$patient){
             if($patient->covid_check == 'oui'){
                 $covid_oui++;
+                if($patient->covid_etat == 'home'){
+                    $covid_home++;
+                }
+                if($patient->covid_etat == 'hospital'){
+                    $covid_hospital++;
+                }
+                if($patient->covid_etat == 'reanimation'){
+                    $covid_reanimation++;
+                }
+                if($patient->covid_etat == 'recovered'){
+                    $covid_recovered++;
+                }
+
+                
             }
             else{
                 $covid_non++;
@@ -27,8 +46,9 @@ class FileUpload extends Controller
         }
 
 
+
         
-        return view('home', compact('files', 'patients','doctors','covid_oui','covid_non'));
+        return view('home', compact('files', 'patients','doctors','covid_oui','covid_non','covid_home','covid_hospital','covid_reanimation','covid_recovered'));
     }
     public function fileUpload(Request $req){
         $req->validate([
