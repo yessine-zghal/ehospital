@@ -80,12 +80,12 @@
                                         <div class="form-group">
                                             <label for="country">Country</label>
                                             <select class="form-control select" name="country" id="country">
-                                                <option>Tunisia</option>
-                                                <option>Algeria</option>
-                                                <option>libye</option>
-                                                <option>France</option>
-                                                <option>Maghreb</option>
-                                                <option>US</option>
+                                                <option>sfax</option>
+                                                <option>tunis</option>
+                                                <option>manouba</option>
+                                                <option>ben arous</option>
+                                                <option>sousse</option>
+                                                <option>mestir</option>
 
                                             </select>
                                         </div>

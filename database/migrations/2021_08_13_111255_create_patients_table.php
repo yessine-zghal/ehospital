@@ -28,8 +28,8 @@ class CreatePatientsTable extends Migration
             $table->integer('postalcode');
             $table->integer('phone');
             $table->string('gendre');
-            $table->string('file');
-            $table->string('patientrecord');
+            $table->string('file')->nullable();
+            $table->string('patientrecord')->nullable();
             $table->string('covid_check');
             $table->string('covid_etat')->nullable();
 
